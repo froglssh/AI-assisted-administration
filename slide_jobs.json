@@ -1,0 +1,1890 @@
+{
+  "run_status": "slides_recorded",
+  "deck_name": "AI輔助行政事務",
+  "selected_backend": "scripts/image_gen.py --backend auto (codex-oauth)",
+  "sample_generation_method": {
+    "backend_used": "scripts/image_gen.py --backend auto (codex-oauth)",
+    "tool_name": "scripts/image_gen.py",
+    "mode": "generate",
+    "prompt_source": "conversation",
+    "size": "2048x1152",
+    "quality": "medium",
+    "approved_sample_path": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/origin_image/slide_06.png"
+  },
+  "max_concurrent_slides": 6,
+  "slides": [
+    {
+      "slide_id": "slide_01",
+      "number": 1,
+      "title": "AI人工智慧輔助IA智能增強",
+      "job": "prompts/slide_01.json",
+      "out": "origin_image/slide_01.png",
+      "input_images": [],
+      "style_reference_images": [
+        {
+          "path": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/origin_image/slide_06.png",
+          "role": "approved sample slide style reference",
+          "fidelity": "match style only; do not copy layout or content"
+        }
+      ],
+      "requires_context_images": false,
+      "expected_generation_mode": "generate",
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "89cef280-161b-4f24-a066-574c339acb57",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_01.json",
+        "prompt_sha256": "257b182bf38bc3e07aa8e613919cd761e7a55ce748c0c748dd4787a07a27a47f",
+        "dispatched_at": "2026-07-03T08:18:47Z"
+      },
+      "result": {
+        "agent_id": "89cef280-161b-4f24-a066-574c339acb57",
+        "backend_used": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "selected_source": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/drafts/slide_01_candidate.png",
+        "selected_source_sha256": "3265bf792f58aac264dbb2ede7ad359f8800ba5920590ab5607f9f0d3aaee5d1",
+        "final_image": "origin_image/slide_01.png",
+        "final_image_sha256": "3265bf792f58aac264dbb2ede7ad359f8800ba5920590ab5607f9f0d3aaee5d1",
+        "expected_backend": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "expected_backend_labels": [
+          "scripts/image_gen.py --backend auto (codex-oauth)",
+          "scripts/image_gen.py"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Slide 1 cover page generated successfully.",
+        "recorded_at": "2026-07-03T08:19:47Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_02",
+      "number": 2,
+      "title": "關於講者 (Presenter)",
+      "job": "prompts/slide_02.json",
+      "out": "origin_image/slide_02.png",
+      "input_images": [],
+      "style_reference_images": [
+        {
+          "path": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/origin_image/slide_06.png",
+          "role": "approved sample slide style reference",
+          "fidelity": "match style only; do not copy layout or content"
+        }
+      ],
+      "requires_context_images": false,
+      "expected_generation_mode": "generate",
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "cbf7ed9f-dd6f-478d-a4ad-bdf5f64c164a",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_02.json",
+        "prompt_sha256": "9065e0ffaecab51a9f57a3f8fcf0cac77fec970408f065771768ede1550a625e",
+        "dispatched_at": "2026-07-03T08:18:48Z"
+      },
+      "result": {
+        "agent_id": "cbf7ed9f-dd6f-478d-a4ad-bdf5f64c164a",
+        "backend_used": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "selected_source": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/drafts/slide_02_candidate.png",
+        "selected_source_sha256": "15f82b30d50f5b917eedb81d3c3410df248c341da5ced4823be296f3e9b3e54a",
+        "final_image": "origin_image/slide_02.png",
+        "final_image_sha256": "15f82b30d50f5b917eedb81d3c3410df248c341da5ced4823be296f3e9b3e54a",
+        "expected_backend": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "expected_backend_labels": [
+          "scripts/image_gen.py --backend auto (codex-oauth)",
+          "scripts/image_gen.py"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Slide 2 speaker profile generated successfully.",
+        "recorded_at": "2026-07-03T08:20:01Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_03",
+      "number": 3,
+      "title": "從 AI 走向 IA (智能增強)",
+      "job": "prompts/slide_03.json",
+      "out": "origin_image/slide_03.png",
+      "input_images": [],
+      "style_reference_images": [
+        {
+          "path": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/origin_image/slide_06.png",
+          "role": "approved sample slide style reference",
+          "fidelity": "match style only; do not copy layout or content"
+        }
+      ],
+      "requires_context_images": false,
+      "expected_generation_mode": "generate",
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "30fa540d-a6a6-4504-b91a-aa72fe2c5640",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_03.json",
+        "prompt_sha256": "cd52dddc961564a29d02e4fff648e92d7333fc1638bd823334dbdff5af4828f8",
+        "dispatched_at": "2026-07-03T08:18:48Z"
+      },
+      "result": {
+        "agent_id": "30fa540d-a6a6-4504-b91a-aa72fe2c5640",
+        "backend_used": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "selected_source": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/drafts/slide_03_candidate.png",
+        "selected_source_sha256": "15895b6acce33a0c0c9ad2ebc91ee40d40b5e2985083b2b48b1ee9e6d509218a",
+        "final_image": "origin_image/slide_03.png",
+        "final_image_sha256": "15895b6acce33a0c0c9ad2ebc91ee40d40b5e2985083b2b48b1ee9e6d509218a",
+        "expected_backend": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "expected_backend_labels": [
+          "scripts/image_gen.py --backend auto (codex-oauth)",
+          "scripts/image_gen.py"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Slide 3 AI to IA concept generated successfully.",
+        "recorded_at": "2026-07-03T08:20:04Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_04",
+      "number": 4,
+      "title": "學校行政與教學的四大核心版圖",
+      "job": "prompts/slide_04.json",
+      "out": "origin_image/slide_04.png",
+      "input_images": [],
+      "style_reference_images": [
+        {
+          "path": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/origin_image/slide_06.png",
+          "role": "approved sample slide style reference",
+          "fidelity": "match style only; do not copy layout or content"
+        }
+      ],
+      "requires_context_images": false,
+      "expected_generation_mode": "generate",
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "791d723c-6e59-4bfc-8265-32d0a55e33cb",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_04.json",
+        "prompt_sha256": "eb794363f7432755c5482ae8240ad8df1845a50bb29e79e9e2992319feaeebbe",
+        "dispatched_at": "2026-07-03T08:18:48Z"
+      },
+      "result": {
+        "agent_id": "791d723c-6e59-4bfc-8265-32d0a55e33cb",
+        "backend_used": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "selected_source": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/drafts/slide_04_candidate.png",
+        "selected_source_sha256": "a1d3b8d13b2efe97cff83f24c771232a1193fb8ebe0cf5f5e9a34e359088921c",
+        "final_image": "origin_image/slide_04.png",
+        "final_image_sha256": "a1d3b8d13b2efe97cff83f24c771232a1193fb8ebe0cf5f5e9a34e359088921c",
+        "expected_backend": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "expected_backend_labels": [
+          "scripts/image_gen.py --backend auto (codex-oauth)",
+          "scripts/image_gen.py"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Slide 4 admin core fields grid generated successfully.",
+        "recorded_at": "2026-07-03T08:19:57Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_05",
+      "number": 5,
+      "title": "第一單元：主流大型語言模型 (LLM) 概覽",
+      "job": "prompts/slide_05.json",
+      "out": "origin_image/slide_05.png",
+      "input_images": [],
+      "style_reference_images": [
+        {
+          "path": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/origin_image/slide_06.png",
+          "role": "approved sample slide style reference",
+          "fidelity": "match style only; do not copy layout or content"
+        }
+      ],
+      "requires_context_images": false,
+      "expected_generation_mode": "generate",
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "768fc0b4-ba7e-46d9-a311-097a802b2c53",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_05.json",
+        "prompt_sha256": "e7833da01d90f5a20217118455f10a8ab1b92e02c945464cb55912f303416ffd",
+        "dispatched_at": "2026-07-03T08:18:48Z"
+      },
+      "result": {
+        "agent_id": "768fc0b4-ba7e-46d9-a311-097a802b2c53",
+        "backend_used": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "selected_source": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/drafts/slide_05_candidate.png",
+        "selected_source_sha256": "87be5c6c543a7a0e2e69838a85f72a247c6c34c58026827112dbde4b84e83fe6",
+        "final_image": "origin_image/slide_05.png",
+        "final_image_sha256": "87be5c6c543a7a0e2e69838a85f72a247c6c34c58026827112dbde4b84e83fe6",
+        "expected_backend": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "expected_backend_labels": [
+          "scripts/image_gen.py --backend auto (codex-oauth)",
+          "scripts/image_gen.py"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Slide 5 section divider generated successfully.",
+        "recorded_at": "2026-07-03T08:19:38Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_06",
+      "number": 6,
+      "title": "四大主流大型語言模型 (LLM) 對比",
+      "job": "prompts/slide_06.json",
+      "out": "origin_image/slide_06.png",
+      "input_images": [],
+      "style_reference_images": [
+        {
+          "path": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/origin_image/slide_06.png",
+          "role": "approved sample slide style reference",
+          "fidelity": "match style only; do not copy layout or content"
+        }
+      ],
+      "requires_context_images": false,
+      "expected_generation_mode": "generate",
+      "status": "accepted",
+      "dispatch": null,
+      "result": {
+        "final_image": "origin_image/slide_06.png",
+        "accepted_sample": true
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_07",
+      "number": 7,
+      "title": "ChatGPT：最廣為人知的 AI 全能助理",
+      "job": "prompts/slide_07.json",
+      "out": "origin_image/slide_07.png",
+      "input_images": [],
+      "style_reference_images": [
+        {
+          "path": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/origin_image/slide_06.png",
+          "role": "approved sample slide style reference",
+          "fidelity": "match style only; do not copy layout or content"
+        }
+      ],
+      "requires_context_images": false,
+      "expected_generation_mode": "generate",
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "6d667580-d640-4539-86d6-ed290afd9eb5",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_07.json",
+        "prompt_sha256": "80dba104d84f4bcb95e421b8d18aa11f8998e435fc3b03514295c6922fa63af3",
+        "dispatched_at": "2026-07-03T08:18:48Z"
+      },
+      "result": {
+        "agent_id": "6d667580-d640-4539-86d6-ed290afd9eb5",
+        "backend_used": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "selected_source": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/drafts/slide_07_candidate.png",
+        "selected_source_sha256": "9a43fb3deaa988df24be6460c5f788be252b2ef4da66b4ea67609e6f3306086c",
+        "final_image": "origin_image/slide_07.png",
+        "final_image_sha256": "9a43fb3deaa988df24be6460c5f788be252b2ef4da66b4ea67609e6f3306086c",
+        "expected_backend": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "expected_backend_labels": [
+          "scripts/image_gen.py --backend auto (codex-oauth)",
+          "scripts/image_gen.py"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Slide 7 ChatGPT concept and applications generated successfully.",
+        "recorded_at": "2026-07-03T08:19:57Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_08",
+      "number": 8,
+      "title": "Microsoft Copilot：微軟辦公加速器",
+      "job": "prompts/slide_08.json",
+      "out": "origin_image/slide_08.png",
+      "input_images": [],
+      "style_reference_images": [
+        {
+          "path": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/origin_image/slide_06.png",
+          "role": "approved sample slide style reference",
+          "fidelity": "match style only; do not copy layout or content"
+        }
+      ],
+      "requires_context_images": false,
+      "expected_generation_mode": "generate",
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "4d1ce519-fa5f-44b8-b9c3-a7e68e4a3b2c",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_08.json",
+        "prompt_sha256": "d9a6cc5b84c001692563d61f1540cb3b06f39115f4a6905bdf667077f4b87cf4",
+        "dispatched_at": "2026-07-03T08:19:44Z"
+      },
+      "result": {
+        "agent_id": "4d1ce519-fa5f-44b8-b9c3-a7e68e4a3b2c",
+        "backend_used": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "selected_source": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/drafts/slide_08_candidate.png",
+        "selected_source_sha256": "45f055ac879c693b8bc399c4e54764cd31b18afbea2eec07ab913def8c6b3594",
+        "final_image": "origin_image/slide_08.png",
+        "final_image_sha256": "45f055ac879c693b8bc399c4e54764cd31b18afbea2eec07ab913def8c6b3594",
+        "expected_backend": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "expected_backend_labels": [
+          "scripts/image_gen.py --backend auto (codex-oauth)",
+          "scripts/image_gen.py"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Slide 8 Copilot concept generated successfully.",
+        "recorded_at": "2026-07-03T08:21:00Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_09",
+      "number": 9,
+      "title": "Claude：長文本處理與嚴謹寫作大師",
+      "job": "prompts/slide_09.json",
+      "out": "origin_image/slide_09.png",
+      "input_images": [],
+      "style_reference_images": [
+        {
+          "path": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/origin_image/slide_06.png",
+          "role": "approved sample slide style reference",
+          "fidelity": "match style only; do not copy layout or content"
+        }
+      ],
+      "requires_context_images": false,
+      "expected_generation_mode": "generate",
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "b4ae68b3-f552-4fe0-8e3b-7967776ed076",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_09.json",
+        "prompt_sha256": "685c99869c74de7d0ef9cc3b220d179257dcb33afb6c1588e3a685b3d8feeee8",
+        "dispatched_at": "2026-07-03T08:19:54Z"
+      },
+      "result": {
+        "agent_id": "b4ae68b3-f552-4fe0-8e3b-7967776ed076",
+        "backend_used": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "selected_source": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/drafts/slide_09_candidate.png",
+        "selected_source_sha256": "f3c9dd20f528d2d49e475fde9abfcee4ca3da5b6c8fd41b6031df1831d2711b4",
+        "final_image": "origin_image/slide_09.png",
+        "final_image_sha256": "f3c9dd20f528d2d49e475fde9abfcee4ca3da5b6c8fd41b6031df1831d2711b4",
+        "expected_backend": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "expected_backend_labels": [
+          "scripts/image_gen.py --backend auto (codex-oauth)",
+          "scripts/image_gen.py"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Slide 9 Claude concept generated successfully.",
+        "recorded_at": "2026-07-03T08:21:11Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_10",
+      "number": 10,
+      "title": "Google Gemini：結合 Google 生態的多模態模型",
+      "job": "prompts/slide_10.json",
+      "out": "origin_image/slide_10.png",
+      "input_images": [],
+      "style_reference_images": [
+        {
+          "path": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/origin_image/slide_06.png",
+          "role": "approved sample slide style reference",
+          "fidelity": "match style only; do not copy layout or content"
+        }
+      ],
+      "requires_context_images": false,
+      "expected_generation_mode": "generate",
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "2f4a8b79-9487-45f5-ad02-f2de85aedcf8",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_10.json",
+        "prompt_sha256": "0e0595a32af337a373a488fec1595565663c8a04d06d28512511345a7f381a98",
+        "dispatched_at": "2026-07-03T08:20:13Z"
+      },
+      "result": {
+        "agent_id": "2f4a8b79-9487-45f5-ad02-f2de85aedcf8",
+        "backend_used": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "selected_source": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/drafts/slide_10_candidate.png",
+        "selected_source_sha256": "5863a281323aca13d64d3cb9ea2287f32191a7e4e222bb2ef5800bad04d1f8e9",
+        "final_image": "origin_image/slide_10.png",
+        "final_image_sha256": "5863a281323aca13d64d3cb9ea2287f32191a7e4e222bb2ef5800bad04d1f8e9",
+        "expected_backend": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "expected_backend_labels": [
+          "scripts/image_gen.py --backend auto (codex-oauth)",
+          "scripts/image_gen.py"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Slide 10 Gemini details generated successfully.",
+        "recorded_at": "2026-07-03T08:21:29Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_11",
+      "number": 11,
+      "title": "第二單元：公文處理與智慧知識庫建置",
+      "job": "prompts/slide_11.json",
+      "out": "origin_image/slide_11.png",
+      "input_images": [],
+      "style_reference_images": [
+        {
+          "path": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/origin_image/slide_06.png",
+          "role": "approved sample slide style reference",
+          "fidelity": "match style only; do not copy layout or content"
+        }
+      ],
+      "requires_context_images": false,
+      "expected_generation_mode": "generate",
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "4ea60fe3-150b-4770-8ca4-c85276db17df",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_11.json",
+        "prompt_sha256": "c12a09371192abc52e514d607400998abd29ac77a97ed41f7572ed100a4a5beb",
+        "dispatched_at": "2026-07-03T08:20:14Z"
+      },
+      "result": {
+        "agent_id": "4ea60fe3-150b-4770-8ca4-c85276db17df",
+        "backend_used": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "selected_source": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/drafts/slide_11_candidate.png",
+        "selected_source_sha256": "016a1b06eeef51df1dcee01da5bdca941831cf5d3156289c3d616d9d23df699c",
+        "final_image": "origin_image/slide_11.png",
+        "final_image_sha256": "016a1b06eeef51df1dcee01da5bdca941831cf5d3156289c3d616d9d23df699c",
+        "expected_backend": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "expected_backend_labels": [
+          "scripts/image_gen.py --backend auto (codex-oauth)",
+          "scripts/image_gen.py"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Slide 11 section divider generated successfully.",
+        "recorded_at": "2026-07-03T08:21:22Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_12",
+      "number": 12,
+      "title": "學校公文處理的行政痛點",
+      "job": "prompts/slide_12.json",
+      "out": "origin_image/slide_12.png",
+      "input_images": [],
+      "style_reference_images": [
+        {
+          "path": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/origin_image/slide_06.png",
+          "role": "approved sample slide style reference",
+          "fidelity": "match style only; do not copy layout or content"
+        }
+      ],
+      "requires_context_images": false,
+      "expected_generation_mode": "generate",
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "d1a46ac4-24c1-4849-84f3-79c411874869",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_12.json",
+        "prompt_sha256": "51a9bf7c24ddea0a1b42ae1beaa2e7e4aa464b14ae9007df4566718aa500da83",
+        "dispatched_at": "2026-07-03T08:20:14Z"
+      },
+      "result": {
+        "agent_id": "d1a46ac4-24c1-4849-84f3-79c411874869",
+        "backend_used": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "selected_source": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/drafts/slide_12_candidate.png",
+        "selected_source_sha256": "bca6691ae594c08bb8b42c84eb565763fd65d7607cee64b7542c4b0c0d010ec1",
+        "final_image": "origin_image/slide_12.png",
+        "final_image_sha256": "bca6691ae594c08bb8b42c84eb565763fd65d7607cee64b7542c4b0c0d010ec1",
+        "expected_backend": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "expected_backend_labels": [
+          "scripts/image_gen.py --backend auto (codex-oauth)",
+          "scripts/image_gen.py"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Slide 12 document pain points generated successfully.",
+        "recorded_at": "2026-07-03T08:21:22Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_13",
+      "number": 13,
+      "title": "臺灣公文寫作助手：自建 GPT 實務",
+      "job": "prompts/slide_13.json",
+      "out": "origin_image/slide_13.png",
+      "input_images": [],
+      "style_reference_images": [
+        {
+          "path": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/origin_image/slide_06.png",
+          "role": "approved sample slide style reference",
+          "fidelity": "match style only; do not copy layout or content"
+        }
+      ],
+      "requires_context_images": false,
+      "expected_generation_mode": "generate",
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "f53bfce4-186f-4988-80e6-db4484cec5f1",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_13.json",
+        "prompt_sha256": "0ab719b3036b560534cd7d6e508100681e3dae8ef88796db8a105735facbe23c",
+        "dispatched_at": "2026-07-03T08:20:14Z"
+      },
+      "result": {
+        "agent_id": "f53bfce4-186f-4988-80e6-db4484cec5f1",
+        "backend_used": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "selected_source": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/drafts/slide_13_candidate.png",
+        "selected_source_sha256": "178399559d10a14c0a183bde5eace1f2a6d4928e19de213db2071fde683f2618",
+        "final_image": "origin_image/slide_13.png",
+        "final_image_sha256": "178399559d10a14c0a183bde5eace1f2a6d4928e19de213db2071fde683f2618",
+        "expected_backend": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "expected_backend_labels": [
+          "scripts/image_gen.py --backend auto (codex-oauth)",
+          "scripts/image_gen.py"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Slide 13 document assistant process generated successfully.",
+        "recorded_at": "2026-07-03T08:21:44Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_14",
+      "number": 14,
+      "title": "客製化專屬 AI：GPTs 與 Gems",
+      "job": "prompts/slide_14.json",
+      "out": "origin_image/slide_14.png",
+      "input_images": [],
+      "style_reference_images": [
+        {
+          "path": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/origin_image/slide_06.png",
+          "role": "approved sample slide style reference",
+          "fidelity": "match style only; do not copy layout or content"
+        }
+      ],
+      "requires_context_images": false,
+      "expected_generation_mode": "generate",
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "3156fe51-4956-4399-8baa-4d655f8daca1",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_14.json",
+        "prompt_sha256": "660c3b06aee441fff08068dd4e701b18150964d97c553226c4c87d031fa5b4cc",
+        "dispatched_at": "2026-07-03T08:21:08Z"
+      },
+      "result": {
+        "agent_id": "3156fe51-4956-4399-8baa-4d655f8daca1",
+        "backend_used": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "selected_source": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/drafts/slide_14_candidate.png",
+        "selected_source_sha256": "5486d719ae6bf5e9da10fd9c5559ca3901f30eab73d4833031b6f3b725cccb5e",
+        "final_image": "origin_image/slide_14.png",
+        "final_image_sha256": "5486d719ae6bf5e9da10fd9c5559ca3901f30eab73d4833031b6f3b725cccb5e",
+        "expected_backend": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "expected_backend_labels": [
+          "scripts/image_gen.py --backend auto (codex-oauth)",
+          "scripts/image_gen.py"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Slide 14 GPTs/Gems custom assistant generated successfully.",
+        "recorded_at": "2026-07-03T08:22:50Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_15",
+      "number": 15,
+      "title": "Google NotebookLM：個人智慧資料庫",
+      "job": "prompts/slide_15.json",
+      "out": "origin_image/slide_15.png",
+      "input_images": [],
+      "style_reference_images": [
+        {
+          "path": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/origin_image/slide_06.png",
+          "role": "approved sample slide style reference",
+          "fidelity": "match style only; do not copy layout or content"
+        }
+      ],
+      "requires_context_images": false,
+      "expected_generation_mode": "generate",
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "4f170f6c-cbb9-4690-ab1a-c38eb23e9022",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_15.json",
+        "prompt_sha256": "25a74cc9c04fd4b5ead6b23f4769e19f71c6c87917d4eed8a631e0626eaf3fb4",
+        "dispatched_at": "2026-07-03T08:21:16Z"
+      },
+      "result": {
+        "agent_id": "4f170f6c-cbb9-4690-ab1a-c38eb23e9022",
+        "backend_used": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "selected_source": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/drafts/slide_15_candidate.png",
+        "selected_source_sha256": "1f647dc44f6647d001d1ba7024227cb29130cff6895aa8b65cf83c947a045573",
+        "final_image": "origin_image/slide_15.png",
+        "final_image_sha256": "1f647dc44f6647d001d1ba7024227cb29130cff6895aa8b65cf83c947a045573",
+        "expected_backend": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "expected_backend_labels": [
+          "scripts/image_gen.py --backend auto (codex-oauth)",
+          "scripts/image_gen.py"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Slide 15 NotebookLM intro generated successfully.",
+        "recorded_at": "2026-07-03T08:22:38Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_16",
+      "number": 16,
+      "title": "實作案例：校規與法規查詢檢索系統",
+      "job": "prompts/slide_16.json",
+      "out": "origin_image/slide_16.png",
+      "input_images": [],
+      "style_reference_images": [
+        {
+          "path": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/origin_image/slide_06.png",
+          "role": "approved sample slide style reference",
+          "fidelity": "match style only; do not copy layout or content"
+        }
+      ],
+      "requires_context_images": false,
+      "expected_generation_mode": "generate",
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "6ee8254b-11e9-4fd8-b14b-f91c807b10cd",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_16.json",
+        "prompt_sha256": "a1a1813680c5ef58cc7b1ae1d4093c42ff972fd564c2e97ef281303ccf54a452",
+        "dispatched_at": "2026-07-03T08:21:28Z"
+      },
+      "result": {
+        "agent_id": "6ee8254b-11e9-4fd8-b14b-f91c807b10cd",
+        "backend_used": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "selected_source": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/drafts/slide_16_candidate.png",
+        "selected_source_sha256": "003213129d319a10c3e9efd5a2db2be47579f624b884496adff689f41fccff29",
+        "final_image": "origin_image/slide_16.png",
+        "final_image_sha256": "003213129d319a10c3e9efd5a2db2be47579f624b884496adff689f41fccff29",
+        "expected_backend": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "expected_backend_labels": [
+          "scripts/image_gen.py --backend auto (codex-oauth)",
+          "scripts/image_gen.py"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Slide 16 NotebookLM case study generated successfully.",
+        "recorded_at": "2026-07-03T08:22:50Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_17",
+      "number": 17,
+      "title": "第三單元：智慧會議記錄與高效語音轉文字",
+      "job": "prompts/slide_17.json",
+      "out": "origin_image/slide_17.png",
+      "input_images": [],
+      "style_reference_images": [
+        {
+          "path": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/origin_image/slide_06.png",
+          "role": "approved sample slide style reference",
+          "fidelity": "match style only; do not copy layout or content"
+        }
+      ],
+      "requires_context_images": false,
+      "expected_generation_mode": "generate",
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "52065faf-925c-4bf4-a464-5e8dd6137f87",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_17.json",
+        "prompt_sha256": "ca759f1461334867dba0f5ad50bb84fd04f83b52eacf93b5edf82162fbb70e42",
+        "dispatched_at": "2026-07-03T08:21:29Z"
+      },
+      "result": {
+        "agent_id": "52065faf-925c-4bf4-a464-5e8dd6137f87",
+        "backend_used": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "selected_source": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/drafts/slide_17_candidate.png",
+        "selected_source_sha256": "1c14019bba138075117616f915114c998f547ab148f38bc106d10c95792cd403",
+        "final_image": "origin_image/slide_17.png",
+        "final_image_sha256": "1c14019bba138075117616f915114c998f547ab148f38bc106d10c95792cd403",
+        "expected_backend": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "expected_backend_labels": [
+          "scripts/image_gen.py --backend auto (codex-oauth)",
+          "scripts/image_gen.py"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Slide 17 section divider generated successfully.",
+        "recorded_at": "2026-07-03T08:22:40Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_18",
+      "number": 18,
+      "title": "會議記錄的行政負擔與痛點",
+      "job": "prompts/slide_18.json",
+      "out": "origin_image/slide_18.png",
+      "input_images": [],
+      "style_reference_images": [
+        {
+          "path": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/origin_image/slide_06.png",
+          "role": "approved sample slide style reference",
+          "fidelity": "match style only; do not copy layout or content"
+        }
+      ],
+      "requires_context_images": false,
+      "expected_generation_mode": "generate",
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "44f24ab4-415c-43d3-8182-1e603ed58a9f",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_18.json",
+        "prompt_sha256": "568adbd240871eb909a5b7fb13b2072649dc5c5bfa58c8d7a8bfdc283de5c61f",
+        "dispatched_at": "2026-07-03T08:21:35Z"
+      },
+      "result": {
+        "agent_id": "44f24ab4-415c-43d3-8182-1e603ed58a9f",
+        "backend_used": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "selected_source": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/drafts/slide_18_candidate.png",
+        "selected_source_sha256": "cfcfe8a4ff472834a4d70e16ff19e9a423ee9ae927d4e1c939c97ade7a783bd6",
+        "final_image": "origin_image/slide_18.png",
+        "final_image_sha256": "cfcfe8a4ff472834a4d70e16ff19e9a423ee9ae927d4e1c939c97ade7a783bd6",
+        "expected_backend": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "expected_backend_labels": [
+          "scripts/image_gen.py --backend auto (codex-oauth)",
+          "scripts/image_gen.py"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Slide 18 meeting minutes pain points generated successfully.",
+        "recorded_at": "2026-07-03T08:22:50Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_19",
+      "number": 19,
+      "title": "語音轉文字工具地圖",
+      "job": "prompts/slide_19.json",
+      "out": "origin_image/slide_19.png",
+      "input_images": [],
+      "style_reference_images": [
+        {
+          "path": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/origin_image/slide_06.png",
+          "role": "approved sample slide style reference",
+          "fidelity": "match style only; do not copy layout or content"
+        }
+      ],
+      "requires_context_images": false,
+      "expected_generation_mode": "generate",
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "6b0021d3-bdd6-4ff9-b850-348f53c4d10c",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_19.json",
+        "prompt_sha256": "2c62196ccc85e0f780aa3e6efa202bec4ac84b7c0e9db8e71139604d03dc99d2",
+        "dispatched_at": "2026-07-03T08:21:49Z"
+      },
+      "result": {
+        "agent_id": "6b0021d3-bdd6-4ff9-b850-348f53c4d10c",
+        "backend_used": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "selected_source": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/drafts/slide_19_candidate.png",
+        "selected_source_sha256": "f41e18aa5b616fa83dc314f7f79917bde840d128421e9cbaf9307cfc90d641d7",
+        "final_image": "origin_image/slide_19.png",
+        "final_image_sha256": "f41e18aa5b616fa83dc314f7f79917bde840d128421e9cbaf9307cfc90d641d7",
+        "expected_backend": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "expected_backend_labels": [
+          "scripts/image_gen.py --backend auto (codex-oauth)",
+          "scripts/image_gen.py"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Slide 19 tool map generated successfully.",
+        "recorded_at": "2026-07-03T08:23:07Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_20",
+      "number": 20,
+      "title": "Microsoft 365 教育版帳號申請與啟用",
+      "job": "prompts/slide_20.json",
+      "out": "origin_image/slide_20.png",
+      "input_images": [],
+      "style_reference_images": [
+        {
+          "path": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/origin_image/slide_06.png",
+          "role": "approved sample slide style reference",
+          "fidelity": "match style only; do not copy layout or content"
+        }
+      ],
+      "requires_context_images": false,
+      "expected_generation_mode": "generate",
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "3e8f2dea-5015-49cd-9a07-7dbf05d489c9",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_20.json",
+        "prompt_sha256": "75c61bcf53fdf7e91f852e11869d4a887359a33c98c8661311605fdd0a84a9b9",
+        "dispatched_at": "2026-07-03T08:22:46Z"
+      },
+      "result": {
+        "agent_id": "3e8f2dea-5015-49cd-9a07-7dbf05d489c9",
+        "backend_used": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "selected_source": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/drafts/slide_20_candidate.png",
+        "selected_source_sha256": "74ee0c9840b315ea56ec62d5d597de12d5b35a304f669793eeb81e590117e86d",
+        "final_image": "origin_image/slide_20.png",
+        "final_image_sha256": "74ee0c9840b315ea56ec62d5d597de12d5b35a304f669793eeb81e590117e86d",
+        "expected_backend": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "expected_backend_labels": [
+          "scripts/image_gen.py --backend auto (codex-oauth)",
+          "scripts/image_gen.py"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Slide 20 Office 365 Setup generated successfully.",
+        "recorded_at": "2026-07-03T08:24:08Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_21",
+      "number": 21,
+      "title": "Windows + H 系統內建語音聽寫",
+      "job": "prompts/slide_21.json",
+      "out": "origin_image/slide_21.png",
+      "input_images": [],
+      "style_reference_images": [
+        {
+          "path": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/origin_image/slide_06.png",
+          "role": "approved sample slide style reference",
+          "fidelity": "match style only; do not copy layout or content"
+        }
+      ],
+      "requires_context_images": false,
+      "expected_generation_mode": "generate",
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "2c59db02-d7a4-40de-9ab6-a7c08e819bda",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_21.json",
+        "prompt_sha256": "9e261152b4693dbaa94de208928a439170e581359af66a5b4ad159e34ae93f5a",
+        "dispatched_at": "2026-07-03T08:22:47Z"
+      },
+      "result": {
+        "agent_id": "2c59db02-d7a4-40de-9ab6-a7c08e819bda",
+        "backend_used": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "selected_source": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/drafts/slide_21_candidate.png",
+        "selected_source_sha256": "4a20c4f671fafb1771e38af27885414cc502e864f0a9e217fded9164a31683dc",
+        "final_image": "origin_image/slide_21.png",
+        "final_image_sha256": "4a20c4f671fafb1771e38af27885414cc502e864f0a9e217fded9164a31683dc",
+        "expected_backend": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "expected_backend_labels": [
+          "scripts/image_gen.py --backend auto (codex-oauth)",
+          "scripts/image_gen.py"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Slide 21 Windows + H generated successfully.",
+        "recorded_at": "2026-07-03T08:24:04Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_22",
+      "number": 22,
+      "title": "網頁版 Word 語音輸入功能",
+      "job": "prompts/slide_22.json",
+      "out": "origin_image/slide_22.png",
+      "input_images": [],
+      "style_reference_images": [
+        {
+          "path": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/origin_image/slide_06.png",
+          "role": "approved sample slide style reference",
+          "fidelity": "match style only; do not copy layout or content"
+        }
+      ],
+      "requires_context_images": false,
+      "expected_generation_mode": "generate",
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "da24e3b6-7104-4ff9-8191-d4d620cd26fd",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_22.json",
+        "prompt_sha256": "1e9f62b0eed178766cbdc8f4f8b9f7ee4b9994dbd24f40f7f2bf18d17e263e7e",
+        "dispatched_at": "2026-07-03T08:22:57Z"
+      },
+      "result": {
+        "agent_id": "da24e3b6-7104-4ff9-8191-d4d620cd26fd",
+        "backend_used": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "selected_source": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/drafts/slide_22_candidate.png",
+        "selected_source_sha256": "96877f5f295e49b09278f50c9f5be8d7fac026ebaac8945121b2f0e0c5df8acc",
+        "final_image": "origin_image/slide_22.png",
+        "final_image_sha256": "96877f5f295e49b09278f50c9f5be8d7fac026ebaac8945121b2f0e0c5df8acc",
+        "expected_backend": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "expected_backend_labels": [
+          "scripts/image_gen.py --backend auto (codex-oauth)",
+          "scripts/image_gen.py"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Slide 22 Word web dictation generated successfully.",
+        "recorded_at": "2026-07-03T08:24:21Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_23",
+      "number": 23,
+      "title": "Office 365 語音擷取與音檔轉錄",
+      "job": "prompts/slide_23.json",
+      "out": "origin_image/slide_23.png",
+      "input_images": [],
+      "style_reference_images": [
+        {
+          "path": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/origin_image/slide_06.png",
+          "role": "approved sample slide style reference",
+          "fidelity": "match style only; do not copy layout or content"
+        }
+      ],
+      "requires_context_images": false,
+      "expected_generation_mode": "generate",
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "70637a4f-5483-4739-b746-d793ee9243c1",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_23.json",
+        "prompt_sha256": "5e6c55a179aa5cd849b51867e58f665191fea7507b7a1e5c073b0df164e31f1c",
+        "dispatched_at": "2026-07-03T08:22:57Z"
+      },
+      "result": {
+        "agent_id": "70637a4f-5483-4739-b746-d793ee9243c1",
+        "backend_used": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "selected_source": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/drafts/slide_23_candidate.png",
+        "selected_source_sha256": "ffadf0931d86cc8976d195b6eaed4c83e8de9098094179ba0f9b1136598476d9",
+        "final_image": "origin_image/slide_23.png",
+        "final_image_sha256": "ffadf0931d86cc8976d195b6eaed4c83e8de9098094179ba0f9b1136598476d9",
+        "expected_backend": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "expected_backend_labels": [
+          "scripts/image_gen.py --backend auto (codex-oauth)",
+          "scripts/image_gen.py"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Slide 23 O365 voice transcript generated successfully.",
+        "recorded_at": "2026-07-03T08:24:15Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_24",
+      "number": 24,
+      "title": "NotebookLM 語音檔二次加工",
+      "job": "prompts/slide_24.json",
+      "out": "origin_image/slide_24.png",
+      "input_images": [],
+      "style_reference_images": [
+        {
+          "path": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/origin_image/slide_06.png",
+          "role": "approved sample slide style reference",
+          "fidelity": "match style only; do not copy layout or content"
+        }
+      ],
+      "requires_context_images": false,
+      "expected_generation_mode": "generate",
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "55acc083-1f72-4167-8b84-ca014b7c03e8",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_24.json",
+        "prompt_sha256": "3f64d25bdde381f90e335083f23d03b0f0c92805d00a60be15b1abc341bf9ade",
+        "dispatched_at": "2026-07-03T08:22:57Z"
+      },
+      "result": {
+        "agent_id": "55acc083-1f72-4167-8b84-ca014b7c03e8",
+        "backend_used": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "selected_source": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/drafts/slide_24_candidate.png",
+        "selected_source_sha256": "183ac16d8fc1ecf85a1d0116fb77680b74174e8ebdad960ce454e0139ce63824",
+        "final_image": "origin_image/slide_24.png",
+        "final_image_sha256": "183ac16d8fc1ecf85a1d0116fb77680b74174e8ebdad960ce454e0139ce63824",
+        "expected_backend": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "expected_backend_labels": [
+          "scripts/image_gen.py --backend auto (codex-oauth)",
+          "scripts/image_gen.py"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Slide 24 NotebookLM audio process generated successfully.",
+        "recorded_at": "2026-07-03T08:24:18Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_25",
+      "number": 25,
+      "title": "會議資料視覺化：從大綱到結構圖",
+      "job": "prompts/slide_25.json",
+      "out": "origin_image/slide_25.png",
+      "input_images": [],
+      "style_reference_images": [
+        {
+          "path": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/origin_image/slide_06.png",
+          "role": "approved sample slide style reference",
+          "fidelity": "match style only; do not copy layout or content"
+        }
+      ],
+      "requires_context_images": false,
+      "expected_generation_mode": "generate",
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "b2d5ae0e-ec7a-4483-9b85-34834849dffd",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_25.json",
+        "prompt_sha256": "8ccf7139a7b74589bd03ac604d6cb46aed43efcf1fb665a25027ab927bea1b8f",
+        "dispatched_at": "2026-07-03T08:23:12Z"
+      },
+      "result": {
+        "agent_id": "b2d5ae0e-ec7a-4483-9b85-34834849dffd",
+        "backend_used": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "selected_source": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/drafts/slide_25_candidate.png",
+        "selected_source_sha256": "1d5caf4dbefbb61b037ad15bbe45f47320fe9e4a3f1d7393c301c83690b21f0f",
+        "final_image": "origin_image/slide_25.png",
+        "final_image_sha256": "1d5caf4dbefbb61b037ad15bbe45f47320fe9e4a3f1d7393c301c83690b21f0f",
+        "expected_backend": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "expected_backend_labels": [
+          "scripts/image_gen.py --backend auto (codex-oauth)",
+          "scripts/image_gen.py"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Slide 25 meeting visualization generated successfully.",
+        "recorded_at": "2026-07-03T08:24:28Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_26",
+      "number": 26,
+      "title": "會議重點圖示化：AI 配圖美化",
+      "job": "prompts/slide_26.json",
+      "out": "origin_image/slide_26.png",
+      "input_images": [],
+      "style_reference_images": [
+        {
+          "path": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/origin_image/slide_06.png",
+          "role": "approved sample slide style reference",
+          "fidelity": "match style only; do not copy layout or content"
+        }
+      ],
+      "requires_context_images": false,
+      "expected_generation_mode": "generate",
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "b9557f9c-9aa1-4964-b59e-87404047d65b",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_26.json",
+        "prompt_sha256": "656784b4d5002a6a5aee1d141f18f0f4f25113b86acced80b0217cce5907b7a6",
+        "dispatched_at": "2026-07-03T08:24:14Z"
+      },
+      "result": {
+        "agent_id": "b9557f9c-9aa1-4964-b59e-87404047d65b",
+        "backend_used": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "selected_source": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/drafts/slide_26_candidate.png",
+        "selected_source_sha256": "8dd03ac5c1f57f1f51e6c38757bccd83fb35d60ad712f60ed531528a83dd2023",
+        "final_image": "origin_image/slide_26.png",
+        "final_image_sha256": "8dd03ac5c1f57f1f51e6c38757bccd83fb35d60ad712f60ed531528a83dd2023",
+        "expected_backend": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "expected_backend_labels": [
+          "scripts/image_gen.py --backend auto (codex-oauth)",
+          "scripts/image_gen.py"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Slide 26 key point icons generated successfully.",
+        "recorded_at": "2026-07-03T08:25:26Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_27",
+      "number": 27,
+      "title": "從會議大綱到簡報生成",
+      "job": "prompts/slide_27.json",
+      "out": "origin_image/slide_27.png",
+      "input_images": [],
+      "style_reference_images": [
+        {
+          "path": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/origin_image/slide_06.png",
+          "role": "approved sample slide style reference",
+          "fidelity": "match style only; do not copy layout or content"
+        }
+      ],
+      "requires_context_images": false,
+      "expected_generation_mode": "generate",
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "f7240268-9844-44df-81a8-f00697aee102",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_27.json",
+        "prompt_sha256": "e3e95536786111eab9724b9dfcd7adafd1e37ee85f34160faf345fc83abfd9fa",
+        "dispatched_at": "2026-07-03T08:24:15Z"
+      },
+      "result": {
+        "agent_id": "f7240268-9844-44df-81a8-f00697aee102",
+        "backend_used": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "selected_source": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/drafts/slide_27_candidate.png",
+        "selected_source_sha256": "39a7fb2ca2a6bf77963396cc4d9e7de1a58c5b8e064fc22451c427f5f1c074a7",
+        "final_image": "origin_image/slide_27.png",
+        "final_image_sha256": "39a7fb2ca2a6bf77963396cc4d9e7de1a58c5b8e064fc22451c427f5f1c074a7",
+        "expected_backend": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "expected_backend_labels": [
+          "scripts/image_gen.py --backend auto (codex-oauth)",
+          "scripts/image_gen.py"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Slide 27 outline to deck generated successfully.",
+        "recorded_at": "2026-07-03T08:25:40Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_28",
+      "number": 28,
+      "title": "第四單元：數位資料庫與智能筆記系統",
+      "job": "prompts/slide_28.json",
+      "out": "origin_image/slide_28.png",
+      "input_images": [],
+      "style_reference_images": [
+        {
+          "path": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/origin_image/slide_06.png",
+          "role": "approved sample slide style reference",
+          "fidelity": "match style only; do not copy layout or content"
+        }
+      ],
+      "requires_context_images": false,
+      "expected_generation_mode": "generate",
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "a6f03aca-b49c-4816-9c61-611e259885f1",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_28.json",
+        "prompt_sha256": "efadc85fdfb4b412e234083eac5d42d10305f131e878fe23b2d6876aaf9971da",
+        "dispatched_at": "2026-07-03T08:24:28Z"
+      },
+      "result": {
+        "agent_id": "a6f03aca-b49c-4816-9c61-611e259885f1",
+        "backend_used": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "selected_source": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/drafts/slide_28_candidate.png",
+        "selected_source_sha256": "71f59b8dbde339ada1065a42a2141451b980b9c74c45590a4908b8626f8c0b7b",
+        "final_image": "origin_image/slide_28.png",
+        "final_image_sha256": "71f59b8dbde339ada1065a42a2141451b980b9c74c45590a4908b8626f8c0b7b",
+        "expected_backend": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "expected_backend_labels": [
+          "scripts/image_gen.py --backend auto (codex-oauth)",
+          "scripts/image_gen.py"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Slide 28 section divider generated successfully.",
+        "recorded_at": "2026-07-03T08:25:15Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_29",
+      "number": 29,
+      "title": "Notion 數位資料庫：結構化整理資源",
+      "job": "prompts/slide_29.json",
+      "out": "origin_image/slide_29.png",
+      "input_images": [],
+      "style_reference_images": [
+        {
+          "path": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/origin_image/slide_06.png",
+          "role": "approved sample slide style reference",
+          "fidelity": "match style only; do not copy layout or content"
+        }
+      ],
+      "requires_context_images": false,
+      "expected_generation_mode": "generate",
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "b8196484-a24c-42be-b7c4-d221b829c400",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_29.json",
+        "prompt_sha256": "144e2646a746ee03d06fcf13369896252fbceb6177e70aae52015fb53a292b86",
+        "dispatched_at": "2026-07-03T08:24:28Z"
+      },
+      "result": {
+        "agent_id": "b8196484-a24c-42be-b7c4-d221b829c400",
+        "backend_used": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "selected_source": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/drafts/slide_29_candidate.png",
+        "selected_source_sha256": "a7bd56d3f470aae0139d4c42e04d4743c7b984ebbdaa956e563e3a4de8514224",
+        "final_image": "origin_image/slide_29.png",
+        "final_image_sha256": "a7bd56d3f470aae0139d4c42e04d4743c7b984ebbdaa956e563e3a4de8514224",
+        "expected_backend": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "expected_backend_labels": [
+          "scripts/image_gen.py --backend auto (codex-oauth)",
+          "scripts/image_gen.py"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Slide 29 Notion database generated successfully.",
+        "recorded_at": "2026-07-03T08:25:47Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_30",
+      "number": 30,
+      "title": "Notion AI 實務應用：生物科錯題診斷",
+      "job": "prompts/slide_30.json",
+      "out": "origin_image/slide_30.png",
+      "input_images": [],
+      "style_reference_images": [
+        {
+          "path": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/origin_image/slide_06.png",
+          "role": "approved sample slide style reference",
+          "fidelity": "match style only; do not copy layout or content"
+        }
+      ],
+      "requires_context_images": false,
+      "expected_generation_mode": "generate",
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "a343e85c-b2a0-45c8-bfff-168b0b07a65e",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_30.json",
+        "prompt_sha256": "d1bf5d87adcb35968d248049fc037b17bec9f1b9e3fdebc835866aeb761eea87",
+        "dispatched_at": "2026-07-03T08:24:28Z"
+      },
+      "result": {
+        "agent_id": "a343e85c-b2a0-45c8-bfff-168b0b07a65e",
+        "backend_used": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "selected_source": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/drafts/slide_30_candidate.png",
+        "selected_source_sha256": "174fedee42e120235fbf1ee308a207f9fa177222a7eb7e7ea004418a300794c7",
+        "final_image": "origin_image/slide_30.png",
+        "final_image_sha256": "174fedee42e120235fbf1ee308a207f9fa177222a7eb7e7ea004418a300794c7",
+        "expected_backend": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "expected_backend_labels": [
+          "scripts/image_gen.py --backend auto (codex-oauth)",
+          "scripts/image_gen.py"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Slide 30 Notion AI diagnostic generated successfully.",
+        "recorded_at": "2026-07-03T08:26:07Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_31",
+      "number": 31,
+      "title": "第五單元：AI 智慧搜尋與大數據分析整理",
+      "job": "prompts/slide_31.json",
+      "out": "origin_image/slide_31.png",
+      "input_images": [],
+      "style_reference_images": [
+        {
+          "path": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/origin_image/slide_06.png",
+          "role": "approved sample slide style reference",
+          "fidelity": "match style only; do not copy layout or content"
+        }
+      ],
+      "requires_context_images": false,
+      "expected_generation_mode": "generate",
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "4c6e0ba1-c8d8-4990-b9fa-bb0eec50ce39",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_31.json",
+        "prompt_sha256": "6d649af24bd3c7cf7075bda4b1959e9047c9db339e27166a80ce8582c8d8fcf9",
+        "dispatched_at": "2026-07-03T08:24:35Z"
+      },
+      "result": {
+        "agent_id": "4c6e0ba1-c8d8-4990-b9fa-bb0eec50ce39",
+        "backend_used": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "selected_source": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/drafts/slide_31_candidate.png",
+        "selected_source_sha256": "0402668450f0ec0e779c5d78e31c1b8682d006a8f0837d339ae442816675efdf",
+        "final_image": "origin_image/slide_31.png",
+        "final_image_sha256": "0402668450f0ec0e779c5d78e31c1b8682d006a8f0837d339ae442816675efdf",
+        "expected_backend": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "expected_backend_labels": [
+          "scripts/image_gen.py --backend auto (codex-oauth)",
+          "scripts/image_gen.py"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Slide 31 unit transition generated successfully.",
+        "recorded_at": "2026-07-03T08:25:59Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_32",
+      "number": 32,
+      "title": "AI 搜尋引擎：Perplexity & Felo Search",
+      "job": "prompts/slide_32.json",
+      "out": "origin_image/slide_32.png",
+      "input_images": [],
+      "style_reference_images": [
+        {
+          "path": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/origin_image/slide_06.png",
+          "role": "approved sample slide style reference",
+          "fidelity": "match style only; do not copy layout or content"
+        }
+      ],
+      "requires_context_images": false,
+      "expected_generation_mode": "generate",
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "af88de7b-9297-43b9-b1da-1a4e88ad4bfc",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_32.json",
+        "prompt_sha256": "bb2586089e28e0c9fcd3cf6ed9010bb5f8c0a44be2eed39d9cf78a6d2173eaef",
+        "dispatched_at": "2026-07-03T08:25:22Z"
+      },
+      "result": {
+        "agent_id": "af88de7b-9297-43b9-b1da-1a4e88ad4bfc",
+        "backend_used": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "selected_source": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/drafts/slide_32_candidate.png",
+        "selected_source_sha256": "b0807f6fee43b59af28053be2b570fe56ecfac2479227381df11f408d427bbac",
+        "final_image": "origin_image/slide_32.png",
+        "final_image_sha256": "b0807f6fee43b59af28053be2b570fe56ecfac2479227381df11f408d427bbac",
+        "expected_backend": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "expected_backend_labels": [
+          "scripts/image_gen.py --backend auto (codex-oauth)",
+          "scripts/image_gen.py"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Slide 32 search engine map generated successfully.",
+        "recorded_at": "2026-07-03T08:26:46Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_33",
+      "number": 33,
+      "title": "資料查詢檢索技巧：尋找法規與政策",
+      "job": "prompts/slide_33.json",
+      "out": "origin_image/slide_33.png",
+      "input_images": [],
+      "style_reference_images": [
+        {
+          "path": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/origin_image/slide_06.png",
+          "role": "approved sample slide style reference",
+          "fidelity": "match style only; do not copy layout or content"
+        }
+      ],
+      "requires_context_images": false,
+      "expected_generation_mode": "generate",
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "e2c1d02d-6e34-40b4-bd29-65dc947dcc82",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_33.json",
+        "prompt_sha256": "75753642124d1dbd1af590b78d282fe8acd408ae9c3976475f4fa695060e6f57",
+        "dispatched_at": "2026-07-03T08:25:33Z"
+      },
+      "result": {
+        "agent_id": "e2c1d02d-6e34-40b4-bd29-65dc947dcc82",
+        "backend_used": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "selected_source": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/drafts/slide_33_candidate.png",
+        "selected_source_sha256": "2ee5c97d064a7976c5849e2a9123ca66d846c9970f9fcdce72a80ea0d8a04988",
+        "final_image": "origin_image/slide_33.png",
+        "final_image_sha256": "2ee5c97d064a7976c5849e2a9123ca66d846c9970f9fcdce72a80ea0d8a04988",
+        "expected_backend": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "expected_backend_labels": [
+          "scripts/image_gen.py --backend auto (codex-oauth)",
+          "scripts/image_gen.py"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Slide 33 law search generated successfully.",
+        "recorded_at": "2026-07-03T08:26:57Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_34",
+      "number": 34,
+      "title": "行政數據分析：利用 LLM 快速整理",
+      "job": "prompts/slide_34.json",
+      "out": "origin_image/slide_34.png",
+      "input_images": [],
+      "style_reference_images": [
+        {
+          "path": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/origin_image/slide_06.png",
+          "role": "approved sample slide style reference",
+          "fidelity": "match style only; do not copy layout or content"
+        }
+      ],
+      "requires_context_images": false,
+      "expected_generation_mode": "generate",
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "ad578bb1-ce3f-4a55-a044-c290a0f21961",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_34.json",
+        "prompt_sha256": "5b661862e2add3661270c032b2aed42f9b89bf72fc5182a96569ec32420b6742",
+        "dispatched_at": "2026-07-03T08:25:53Z"
+      },
+      "result": {
+        "agent_id": "ad578bb1-ce3f-4a55-a044-c290a0f21961",
+        "backend_used": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "selected_source": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/drafts/slide_34_candidate.png",
+        "selected_source_sha256": "e012381c20323925a58cb24bbb0c281c788f9f790c9deb25ae71b6e8e59665f7",
+        "final_image": "origin_image/slide_34.png",
+        "final_image_sha256": "e012381c20323925a58cb24bbb0c281c788f9f790c9deb25ae71b6e8e59665f7",
+        "expected_backend": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "expected_backend_labels": [
+          "scripts/image_gen.py --backend auto (codex-oauth)",
+          "scripts/image_gen.py"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Slide 34 Felo/Perplexity generated successfully.",
+        "recorded_at": "2026-07-03T08:27:18Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_35",
+      "number": 35,
+      "title": "第六單元：多媒體生成與行政設計美化",
+      "job": "prompts/slide_35.json",
+      "out": "origin_image/slide_35.png",
+      "input_images": [],
+      "style_reference_images": [
+        {
+          "path": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/origin_image/slide_06.png",
+          "role": "approved sample slide style reference",
+          "fidelity": "match style only; do not copy layout or content"
+        }
+      ],
+      "requires_context_images": false,
+      "expected_generation_mode": "generate",
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "5537bcc7-6d37-4270-87a5-322f8e532a1f",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_35.json",
+        "prompt_sha256": "69d991d2713ef26f4d6f4a5d595ba1749db61179bbbc914140df984df1af2867",
+        "dispatched_at": "2026-07-03T08:25:53Z"
+      },
+      "result": {
+        "agent_id": "5537bcc7-6d37-4270-87a5-322f8e532a1f",
+        "backend_used": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "selected_source": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/drafts/slide_35_candidate.png",
+        "selected_source_sha256": "45bcaeacc04b7eb3e4e442017f1746ddcd8e2ac3883e7e9e8b216ae198235d4b",
+        "final_image": "origin_image/slide_35.png",
+        "final_image_sha256": "45bcaeacc04b7eb3e4e442017f1746ddcd8e2ac3883e7e9e8b216ae198235d4b",
+        "expected_backend": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "expected_backend_labels": [
+          "scripts/image_gen.py --backend auto (codex-oauth)",
+          "scripts/image_gen.py"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Slide 35 law query demo generated successfully.",
+        "recorded_at": "2026-07-03T08:26:59Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_36",
+      "number": 36,
+      "title": "AI 圖片生成工具簡介",
+      "job": "prompts/slide_36.json",
+      "out": "origin_image/slide_36.png",
+      "input_images": [],
+      "style_reference_images": [
+        {
+          "path": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/origin_image/slide_06.png",
+          "role": "approved sample slide style reference",
+          "fidelity": "match style only; do not copy layout or content"
+        }
+      ],
+      "requires_context_images": false,
+      "expected_generation_mode": "generate",
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "b105f329-5a54-4078-988d-e5f7610e8f37",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_36.json",
+        "prompt_sha256": "6e6fb81424f8b546f043429e156a0f9762e5b3ccdedd66d3798baf855c95a6f0",
+        "dispatched_at": "2026-07-03T08:26:05Z"
+      },
+      "result": {
+        "agent_id": "b105f329-5a54-4078-988d-e5f7610e8f37",
+        "backend_used": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "selected_source": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/drafts/slide_36_candidate.png",
+        "selected_source_sha256": "c03c4c271476ed5d7c14250d610e96a09318a1143963933e66cea9e0c11a18cb",
+        "final_image": "origin_image/slide_36.png",
+        "final_image_sha256": "c03c4c271476ed5d7c14250d610e96a09318a1143963933e66cea9e0c11a18cb",
+        "expected_backend": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "expected_backend_labels": [
+          "scripts/image_gen.py --backend auto (codex-oauth)",
+          "scripts/image_gen.py"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Slide 36 Gamma presentation tool intro generated successfully.",
+        "recorded_at": "2026-07-03T08:27:29Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_37",
+      "number": 37,
+      "title": "實作案例：吉卜力動畫風格校景生成",
+      "job": "prompts/slide_37.json",
+      "out": "origin_image/slide_37.png",
+      "input_images": [],
+      "style_reference_images": [
+        {
+          "path": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/origin_image/slide_06.png",
+          "role": "approved sample slide style reference",
+          "fidelity": "match style only; do not copy layout or content"
+        }
+      ],
+      "requires_context_images": false,
+      "expected_generation_mode": "generate",
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "d9d72425-bf92-4c5b-b2ae-f610c4e43d86",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_37.json",
+        "prompt_sha256": "581cfea4439a3d5f43ac9cc053d0f3b2bea76607fefe49edfb7db08d964bf652",
+        "dispatched_at": "2026-07-03T08:26:12Z"
+      },
+      "result": {
+        "agent_id": "d9d72425-bf92-4c5b-b2ae-f610c4e43d86",
+        "backend_used": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "selected_source": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/drafts/slide_37_candidate.png",
+        "selected_source_sha256": "506628f101cae5548d89c36ead4e7410cdb4b163e1a79ac737303b64f0247b58",
+        "final_image": "origin_image/slide_37.png",
+        "final_image_sha256": "506628f101cae5548d89c36ead4e7410cdb4b163e1a79ac737303b64f0247b58",
+        "expected_backend": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "expected_backend_labels": [
+          "scripts/image_gen.py --backend auto (codex-oauth)",
+          "scripts/image_gen.py"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Slide 37 Gamma outline to slide structure generated successfully.",
+        "recorded_at": "2026-07-03T08:27:24Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_38",
+      "number": 38,
+      "title": "簡報生成神器 Gamma 的高效應用",
+      "job": "prompts/slide_38.json",
+      "out": "origin_image/slide_38.png",
+      "input_images": [],
+      "style_reference_images": [
+        {
+          "path": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/origin_image/slide_06.png",
+          "role": "approved sample slide style reference",
+          "fidelity": "match style only; do not copy layout or content"
+        }
+      ],
+      "requires_context_images": false,
+      "expected_generation_mode": "generate",
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "f671e8f2-9c34-4a96-918d-e4693bd6aba4",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_38.json",
+        "prompt_sha256": "7aabefb5a976424209e55b5cbcf4e1210da4a02273afe37fffc67023bae71bc1",
+        "dispatched_at": "2026-07-03T08:26:57Z"
+      },
+      "result": {
+        "agent_id": "f671e8f2-9c34-4a96-918d-e4693bd6aba4",
+        "backend_used": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "selected_source": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/drafts/slide_38_candidate.png",
+        "selected_source_sha256": "bd8914465797aaed407ec4fa71c89b90693755dc06a4608877b851600d89e108",
+        "final_image": "origin_image/slide_38.png",
+        "final_image_sha256": "bd8914465797aaed407ec4fa71c89b90693755dc06a4608877b851600d89e108",
+        "expected_backend": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "expected_backend_labels": [
+          "scripts/image_gen.py --backend auto (codex-oauth)",
+          "scripts/image_gen.py"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Slide 38 Gamma export demo generated successfully.",
+        "recorded_at": "2026-07-03T08:28:12Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_39",
+      "number": 39,
+      "title": "行政業務簡報美化技巧",
+      "job": "prompts/slide_39.json",
+      "out": "origin_image/slide_39.png",
+      "input_images": [],
+      "style_reference_images": [
+        {
+          "path": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/origin_image/slide_06.png",
+          "role": "approved sample slide style reference",
+          "fidelity": "match style only; do not copy layout or content"
+        }
+      ],
+      "requires_context_images": false,
+      "expected_generation_mode": "generate",
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "0f29e223-7e42-417c-bfad-6db44e2507e4",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_39.json",
+        "prompt_sha256": "f066fda167a417580d187c67ab010e5518ffb72353e32e8fafbf990ed095ade4",
+        "dispatched_at": "2026-07-03T08:27:06Z"
+      },
+      "result": {
+        "agent_id": "0f29e223-7e42-417c-bfad-6db44e2507e4",
+        "backend_used": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "selected_source": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/drafts/slide_39_candidate.png",
+        "selected_source_sha256": "09bfe98e32ce6fd55f4caff170e12a8251a23da186a334a158385fe80efce026",
+        "final_image": "origin_image/slide_39.png",
+        "final_image_sha256": "09bfe98e32ce6fd55f4caff170e12a8251a23da186a334a158385fe80efce026",
+        "expected_backend": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "expected_backend_labels": [
+          "scripts/image_gen.py --backend auto (codex-oauth)",
+          "scripts/image_gen.py"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Slide 39 unit transition generated successfully.",
+        "recorded_at": "2026-07-03T08:28:30Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_40",
+      "number": 40,
+      "title": "第七單元：跨國交流與網頁即時翻譯",
+      "job": "prompts/slide_40.json",
+      "out": "origin_image/slide_40.png",
+      "input_images": [],
+      "style_reference_images": [
+        {
+          "path": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/origin_image/slide_06.png",
+          "role": "approved sample slide style reference",
+          "fidelity": "match style only; do not copy layout or content"
+        }
+      ],
+      "requires_context_images": false,
+      "expected_generation_mode": "generate",
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "1ebf9d70-b392-48da-9aeb-6b8a79f145ee",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_40.json",
+        "prompt_sha256": "42426a6880fabad9e5b01f64e57f7325d030ee359665ec04b878f516b264629a",
+        "dispatched_at": "2026-07-03T08:27:07Z"
+      },
+      "result": {
+        "agent_id": "1ebf9d70-b392-48da-9aeb-6b8a79f145ee",
+        "backend_used": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "selected_source": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/drafts/slide_40_candidate.png",
+        "selected_source_sha256": "4ee725176bf9cce86a155c86b8f7dc848779a6988f3c161218fc9cda3f5114b5",
+        "final_image": "origin_image/slide_40.png",
+        "final_image_sha256": "4ee725176bf9cce86a155c86b8f7dc848779a6988f3c161218fc9cda3f5114b5",
+        "expected_backend": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "expected_backend_labels": [
+          "scripts/image_gen.py --backend auto (codex-oauth)",
+          "scripts/image_gen.py"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Slide 40 Canva edu advantage generated successfully.",
+        "recorded_at": "2026-07-03T08:28:07Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_41",
+      "number": 41,
+      "title": "實用網頁與文檔翻譯工具",
+      "job": "prompts/slide_41.json",
+      "out": "origin_image/slide_41.png",
+      "input_images": [],
+      "style_reference_images": [
+        {
+          "path": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/origin_image/slide_06.png",
+          "role": "approved sample slide style reference",
+          "fidelity": "match style only; do not copy layout or content"
+        }
+      ],
+      "requires_context_images": false,
+      "expected_generation_mode": "generate",
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "692e44d1-7745-40e5-a85c-8014c96a70c8",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_41.json",
+        "prompt_sha256": "aa25f743e07794529a2966cbe4e29f7af65fe7f5609456aa9406ac669a62f782",
+        "dispatched_at": "2026-07-03T08:27:24Z"
+      },
+      "result": {
+        "agent_id": "692e44d1-7745-40e5-a85c-8014c96a70c8",
+        "backend_used": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "selected_source": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/drafts/slide_41_candidate.png",
+        "selected_source_sha256": "fc1048c7d54f376e1d5a4272f1f270d250fb9202c3dbcafc9fb9242ccdd19d98",
+        "final_image": "origin_image/slide_41.png",
+        "final_image_sha256": "fc1048c7d54f376e1d5a4272f1f270d250fb9202c3dbcafc9fb9242ccdd19d98",
+        "expected_backend": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "expected_backend_labels": [
+          "scripts/image_gen.py --backend auto (codex-oauth)",
+          "scripts/image_gen.py"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Slide 41 poster creation generated successfully.",
+        "recorded_at": "2026-07-03T08:28:43Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_42",
+      "number": 42,
+      "title": "實作案例：AI 輔助設計雙語翻譯網頁程式",
+      "job": "prompts/slide_42.json",
+      "out": "origin_image/slide_42.png",
+      "input_images": [],
+      "style_reference_images": [
+        {
+          "path": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/origin_image/slide_06.png",
+          "role": "approved sample slide style reference",
+          "fidelity": "match style only; do not copy layout or content"
+        }
+      ],
+      "requires_context_images": false,
+      "expected_generation_mode": "generate",
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "7896a7ea-d456-4c95-98da-491773be0af5",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_42.json",
+        "prompt_sha256": "42fc6545bd3e1bc15c231cf18ed555c3561ce0aa323c6e0069d3acafbe5f2ae0",
+        "dispatched_at": "2026-07-03T08:27:38Z"
+      },
+      "result": {
+        "agent_id": "7896a7ea-d456-4c95-98da-491773be0af5",
+        "backend_used": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "selected_source": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/drafts/slide_42_candidate.png",
+        "selected_source_sha256": "5e22ebad87a4c5d64e827f2d738a616f474a438c15e4a9cb8bc4f4c8a4776a30",
+        "final_image": "origin_image/slide_42.png",
+        "final_image_sha256": "5e22ebad87a4c5d64e827f2d738a616f474a438c15e4a9cb8bc4f4c8a4776a30",
+        "expected_backend": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "expected_backend_labels": [
+          "scripts/image_gen.py --backend auto (codex-oauth)",
+          "scripts/image_gen.py"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Slide 42 integration process generated successfully.",
+        "recorded_at": "2026-07-03T08:29:01Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_43",
+      "number": 43,
+      "title": "第八單元：AI Agent 前瞻與結語",
+      "job": "prompts/slide_43.json",
+      "out": "origin_image/slide_43.png",
+      "input_images": [],
+      "style_reference_images": [
+        {
+          "path": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/origin_image/slide_06.png",
+          "role": "approved sample slide style reference",
+          "fidelity": "match style only; do not copy layout or content"
+        }
+      ],
+      "requires_context_images": false,
+      "expected_generation_mode": "generate",
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "63d3d43c-db6e-45b9-a618-1eb9db0596e1",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_43.json",
+        "prompt_sha256": "8279ad77bb3515086b155c1a13ef8ee1b2c8e7d4ea3589c15eac8432d32a802a",
+        "dispatched_at": "2026-07-03T08:27:38Z"
+      },
+      "result": {
+        "agent_id": "63d3d43c-db6e-45b9-a618-1eb9db0596e1",
+        "backend_used": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "selected_source": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/drafts/slide_43_candidate.png",
+        "selected_source_sha256": "ca144d3ae538abe832f46b8481bf972aeac3ed9c84744fdefe511a539295791a",
+        "final_image": "origin_image/slide_43.png",
+        "final_image_sha256": "ca144d3ae538abe832f46b8481bf972aeac3ed9c84744fdefe511a539295791a",
+        "expected_backend": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "expected_backend_labels": [
+          "scripts/image_gen.py --backend auto (codex-oauth)",
+          "scripts/image_gen.py"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Slide 43 automation strategy generated successfully.",
+        "recorded_at": "2026-07-03T08:28:45Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_44",
+      "number": 44,
+      "title": "AI Agent：邁向自動化工作流的未來",
+      "job": "prompts/slide_44.json",
+      "out": "origin_image/slide_44.png",
+      "input_images": [],
+      "style_reference_images": [
+        {
+          "path": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/origin_image/slide_06.png",
+          "role": "approved sample slide style reference",
+          "fidelity": "match style only; do not copy layout or content"
+        }
+      ],
+      "requires_context_images": false,
+      "expected_generation_mode": "generate",
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "dfb92dd0-ae0a-4f53-9849-d5116ce98846",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_44.json",
+        "prompt_sha256": "92d29fef522928841b8f8cd1edf8da1f44f87cce0876ca3380b430caf654c359",
+        "dispatched_at": "2026-07-03T08:28:21Z"
+      },
+      "result": {
+        "agent_id": "dfb92dd0-ae0a-4f53-9849-d5116ce98846",
+        "backend_used": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "selected_source": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/drafts/slide_44_candidate.png",
+        "selected_source_sha256": "c3e74cd30080bc1f04dac0c723d8899d63aaa91c1431df7fc4034853f99c6f83",
+        "final_image": "origin_image/slide_44.png",
+        "final_image_sha256": "c3e74cd30080bc1f04dac0c723d8899d63aaa91c1431df7fc4034853f99c6f83",
+        "expected_backend": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "expected_backend_labels": [
+          "scripts/image_gen.py --backend auto (codex-oauth)",
+          "scripts/image_gen.py"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Slide 44 AI literacy and ethics generated successfully.",
+        "recorded_at": "2026-07-03T08:29:44Z"
+      },
+      "blocker": null
+    },
+    {
+      "slide_id": "slide_45",
+      "number": 45,
+      "title": "結語：麗山生態之美與教育生命關懷 (藏尾詩)",
+      "job": "prompts/slide_45.json",
+      "out": "origin_image/slide_45.png",
+      "input_images": [],
+      "style_reference_images": [
+        {
+          "path": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/origin_image/slide_06.png",
+          "role": "approved sample slide style reference",
+          "fidelity": "match style only; do not copy layout or content"
+        }
+      ],
+      "requires_context_images": false,
+      "expected_generation_mode": "generate",
+      "status": "recorded",
+      "dispatch": {
+        "agent_id": "06059207-9c08-421a-b8d8-2e6dd16a056f",
+        "agent_nickname": null,
+        "prompt": "prompts/slide_45.json",
+        "prompt_sha256": "38d55687a1a316a96d750c1cbf8becc708aad764e0307b4a8fb68fcebda821ce",
+        "dispatched_at": "2026-07-03T08:28:22Z"
+      },
+      "result": {
+        "agent_id": "06059207-9c08-421a-b8d8-2e6dd16a056f",
+        "backend_used": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "selected_source": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/drafts/slide_45_candidate.png",
+        "selected_source_sha256": "afb5a6e0852a1d1d36ce8221655f89ee00c1bc1a0ce4b39e25273bb42546d11b",
+        "final_image": "origin_image/slide_45.png",
+        "final_image_sha256": "afb5a6e0852a1d1d36ce8221655f89ee00c1bc1a0ce4b39e25273bb42546d11b",
+        "expected_backend": "scripts/image_gen.py --backend auto (codex-oauth)",
+        "expected_backend_labels": [
+          "scripts/image_gen.py --backend auto (codex-oauth)",
+          "scripts/image_gen.py"
+        ],
+        "sample_generation_method_matched": true,
+        "qa_note": "Slide 45 conclusion generated successfully.",
+        "recorded_at": "2026-07-03T08:29:46Z"
+      },
+      "blocker": null
+    }
+  ],
+  "updated_at": "2026-07-03T08:29:46Z"
+}

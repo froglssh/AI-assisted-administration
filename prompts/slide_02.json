@@ -1,0 +1,49 @@
+{
+  "slide": 2,
+  "title": "關於講者 (Presenter)",
+  "prompt": "# Codex PPT Slide Image Prompt\n\n## Canvas\n{\n  \"type\": \"16:9 full-slide PowerPoint image\",\n  \"language\": \"Chinese\",\n  \"slide_number\": 2,\n  \"render_slide_number\": false\n}\n\n## Deck Goal\n將原本的《AI輔助行政事務》簡報進行全方位的重新設計、邏輯擴充與編排，使其成為該教學主題最完整、最具專業質感的解說檔案。\n\n## Required Background\n{\n  \"deck_context\": {\n    \"source_summary\": \"麗山高中林獻升老師的AI輔助行政事務教學投影片。涵蓋大型語言模型對比、公文起草、語音轉文字與會議記錄、Notion 數位資料庫、AI 搜尋工具、圖片生成與吉卜力校景、Gamma簡報生成，以及雙語翻譯網頁程式、AI Agent概念，最後以麗山高中藏尾詩總結。\",\n    \"core_claim\": \"以智能增強 (IA) 賦能教育行政，用 AI 處理繁瑣重複的工作，提升行政效率，讓教師與行政人員能專注於教育的溫度與決策。\",\n    \"canonical_terms\": [\n      \"人工智慧 (AI)\",\n      \"智能增強 (IA)\",\n      \"大型語言模型 (LLM)\",\n      \"NotebookLM\",\n      \"Notion AI\",\n      \"AI Agent\",\n      \"吉卜力風格\"\n    ]\n  }\n}\n\n## Global Style\n{\n  \"name\": \"風格 A：清爽專業風\",\n  \"visual_direction\": \"clean professional presentation style\",\n  \"color_palette\": \"very light gray background (#F8F9FA), white cards, deep navy blue primary text (#1A365D), light teal accent text/highlights (#0D9488), dark gray body text (#2D3748)\",\n  \"typography\": \"very large, bold, and clean sans-serif typography, prominent headings, highly legible and high contrast\"\n}\n\n## Style Reference Images To Inspect\n\n- Style Reference 1: /Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/origin_image/slide_06.png — approved sample slide style reference; match style only; do not copy layout or content\n\nInspect these images before generation to understand the approved deck style. Do not pass them to the image backend as input images unless this slide explicitly lists them under Input Images.\n\n## Slide\n{\n  \"number\": 2,\n  \"title\": \"關於講者 (Presenter)\",\n  \"role\": \"concept explanation\",\n  \"intent\": \"介紹講者資訊\"\n}\n\n## Text\n{\n  \"title\": \"關於講者 (Presenter)\",\n  \"key_points\": [\n    \"講者：林獻升 老師（麗山高中生物科）\",\n    \"榮譽：代表數學與自然科學類榮獲臺北市第111學年度「特殊優良教師」\",\n    \"教育理念：「探索繽紛美妙的生物，編織幸福圓滿的生命」\"\n  ],\n  \"speaker_focus\": null\n}\n\n## Layout\n{\n  \"composition\": \"左側為講者個人檔案框（附簡潔裝飾線），右側為介紹卡片，使用大字高亮理念\"\n}\n\n## Style Reference Rule\nUse the approved sample-slide style reference as visual guidance only. Match its palette, typography mood, density, texture, and overall visual identity. Do not copy its exact layout unless this slide's layout explicitly asks for it. For normal new slide generation, use the generate endpoint and express the inspected style through the prompt instead of attaching the sample as an edit input.\n\n## Universal Constraints\n- The final image itself must contain the title and key points.\n- Render Chinese text exactly and legibly; avoid garbled characters.\n- Keep the confirmed deck style consistent while varying layout by slide role.\n- No watermark, unrelated logo, or extra slide number.\n",
+  "out": "slide_02.png",
+  "candidate_out": "drafts/slide_02_candidate.png",
+  "input_images": [],
+  "style_reference_images": [
+    {
+      "path": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/origin_image/slide_06.png",
+      "role": "approved sample slide style reference",
+      "fidelity": "match style only; do not copy layout or content"
+    }
+  ],
+  "requires_context_images": false,
+  "expected_generation_mode": "generate",
+  "expected_backend": "scripts/image_gen.py --backend auto (codex-oauth)",
+  "sample_generation_method": {
+    "backend_used": "scripts/image_gen.py --backend auto (codex-oauth)",
+    "tool_name": "scripts/image_gen.py",
+    "mode": "generate",
+    "prompt_source": "conversation",
+    "size": "2048x1152",
+    "quality": "medium",
+    "approved_sample_path": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/origin_image/slide_06.png"
+  },
+  "generation_contract": {
+    "must_use_selected_image_backend": true,
+    "must_match_sample_generation_method": true,
+    "default_mode": "generate",
+    "use_edit_only_when": [
+      "input_images is non-empty",
+      "repairing an existing generated slide"
+    ],
+    "must_inspect_style_reference_images": true,
+    "forbidden_final_image_methods": [
+      "local drawing/rendering scripts",
+      "Pillow-generated slides",
+      "SVG/HTML/CSS/canvas screenshots",
+      "python-pptx/PptxGenJS/native PPT layout screenshots",
+      "manually composited text/image overlays"
+    ],
+    "must_return": [
+      "backend_used",
+      "selected_source",
+      "qa_note"
+    ]
+  }
+}

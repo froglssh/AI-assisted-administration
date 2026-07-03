@@ -1,0 +1,673 @@
+{
+  "deck_name": "AI輔助行政事務",
+  "language": "Chinese",
+  "goal": "將原本的《AI輔助行政事務》簡報進行全方位的重新設計、邏輯擴充與編排，使其成為該教學主題最完整、最具專業質感的解說檔案。",
+  "deck_context": {
+    "source_summary": "麗山高中林獻升老師的AI輔助行政事務教學投影片。涵蓋大型語言模型對比、公文起草、語音轉文字與會議記錄、Notion 數位資料庫、AI 搜尋工具、圖片生成與吉卜力校景、Gamma簡報生成，以及雙語翻譯網頁程式、AI Agent概念，最後以麗山高中藏尾詩總結。",
+    "core_claim": "以智能增強 (IA) 賦能教育行政，用 AI 處理繁瑣重複的工作，提升行政效率，讓教師與行政人員能專注於教育的溫度與決策。",
+    "canonical_terms": [
+      "人工智慧 (AI)",
+      "智能增強 (IA)",
+      "大型語言模型 (LLM)",
+      "NotebookLM",
+      "Notion AI",
+      "AI Agent",
+      "吉卜力風格"
+    ]
+  },
+  "selected_image_backend": "scripts/image_gen.py --backend auto (codex-oauth)",
+  "max_concurrent_slides": 6,
+  "sample_generation_method": {
+    "backend_used": "scripts/image_gen.py --backend auto (codex-oauth)",
+    "tool_name": "scripts/image_gen.py",
+    "mode": "generate",
+    "prompt_source": "conversation",
+    "size": "2048x1152",
+    "quality": "medium",
+    "approved_sample_path": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/origin_image/slide_06.png"
+  },
+  "style": {
+    "name": "風格 A：清爽專業風",
+    "visual_direction": "clean professional presentation style",
+    "color_palette": "very light gray background (#F8F9FA), white cards, deep navy blue primary text (#1A365D), light teal accent text/highlights (#0D9488), dark gray body text (#2D3748)",
+    "typography": "very large, bold, and clean sans-serif typography, prominent headings, highly legible and high contrast"
+  },
+  "approved_style_reference": {
+    "path": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/origin_image/slide_06.png",
+    "role": "approved sample slide style reference",
+    "fidelity": "match style only; do not copy layout or content"
+  },
+  "slides": [
+    {
+      "number": 1,
+      "title": "AI人工智慧輔助IA智能增強",
+      "role": "cover",
+      "intent": "封面頁",
+      "key_points": [
+        "AI人工智慧輔助IA智能增強",
+        "Artificial Intelligence-Assisted Intelligence Augmentation",
+        "開啟學校行政的新效能時代"
+      ],
+      "layout": {
+        "composition": "深藍色大標題置中，副標題與作者標記置於下方，整體呈現簡潔俐落的科技感"
+      }
+    },
+    {
+      "number": 2,
+      "title": "關於講者 (Presenter)",
+      "role": "concept explanation",
+      "intent": "介紹講者資訊",
+      "key_points": [
+        "講者：林獻升 老師（麗山高中生物科）",
+        "榮譽：代表數學與自然科學類榮獲臺北市第111學年度「特殊優良教師」",
+        "教育理念：「探索繽紛美妙的生物，編織幸福圓滿的生命」"
+      ],
+      "layout": {
+        "composition": "左側為講者個人檔案框（附簡潔裝飾線），右側為介紹卡片，使用大字高亮理念"
+      }
+    },
+    {
+      "number": 3,
+      "title": "從 AI 走向 IA (智能增強)",
+      "role": "concept explanation",
+      "intent": "區分 AI 與 IA 的概念",
+      "key_points": [
+        "AI (人工智慧) 是自動化工具，IA (智能增強) 是以 AI 賦能人類大腦",
+        "人機協作：AI 處理繁瑣重複的工作，人類專注於決策與教育溫度",
+        "目標：利用 AI 作為行政與教學上的強力助手，而非取代教師角色"
+      ],
+      "layout": {
+        "composition": "左右對比卡片，左側代表自動化算力，右側代表人類智能增強，用箭頭連結"
+      }
+    },
+    {
+      "number": 4,
+      "title": "學校行政與教學的四大核心版圖",
+      "role": "process",
+      "intent": "展示 AI 應用的四大範疇",
+      "key_points": [
+        "教學準備：教案設計、教材生成、素養導向評量命題",
+        "科學實驗：實驗方案設計、實驗數據統計與圖表分析",
+        "導師事務：家長溝通草稿、學生評語撰寫、錯題診斷",
+        "學校行政：公文起草、智慧會議記錄、校規文檔智慧檢索"
+      ],
+      "layout": {
+        "composition": "2x2 網格布版，四個範疇卡片並列，使用湖水綠高亮「學校行政」卡片"
+      }
+    },
+    {
+      "number": 5,
+      "title": "第一單元：主流大型語言模型 (LLM) 概覽",
+      "role": "section divider",
+      "intent": "過渡到第一單元",
+      "key_points": [
+        "認識引領 AI 革命的四大核心模型",
+        "理解各工具的專長與行政適用場景"
+      ],
+      "layout": {
+        "composition": "大標題居中，背景極簡，配以精緻的湖水綠裝飾線"
+      }
+    },
+    {
+      "number": 6,
+      "title": "四大主流大型語言模型 (LLM) 對比",
+      "role": "comparison",
+      "intent": "比較四大模型特點",
+      "key_points": [
+        "ChatGPT (OpenAI)：最廣為人知，功能全能，GPTs 生態豐富，自訂彈性高",
+        "Copilot (Microsoft)：與微軟 Office 生態系整合，提供商業數據保護，登入即用",
+        "Claude (Anthropic)：擅長長文本分析與嚴謹寫作，邏輯清晰，安全對話設計",
+        "Gemini (Google)：整合 Google Workspace 服務，支援多模態輸入與即時搜尋"
+      ],
+      "layout": {
+        "composition": "4欄垂直白色卡片，頂部配簡約扁平 icon，文字大而醒目"
+      },
+      "sample_approved": true
+    },
+    {
+      "number": 7,
+      "title": "ChatGPT：最廣為人知的 AI 全能助理",
+      "role": "concept explanation",
+      "intent": "介紹 ChatGPT 的行政價值",
+      "key_points": [
+        "全能助理：回答問題、撰寫草稿、整理長篇文章、創意對話",
+        "生態系：透過 GPT Store 使用他人建立的工具，或無程式碼自建助手",
+        "行政優勢：極佳的對話上下文理解能力，可處理各類非結構化文字"
+      ],
+      "layout": {
+        "composition": "左側概念卡片，右側列出常見應用（如信件起草、計畫擬定）"
+      }
+    },
+    {
+      "number": 8,
+      "title": "Microsoft Copilot：微軟辦公加速器",
+      "role": "concept explanation",
+      "intent": "介紹 Copilot 功能與 Office 整合",
+      "key_points": [
+        "與 Windows 系統及 Microsoft 365 應用程式（Word、Excel 等）深度融合",
+        "商業數據保護：企業/教育版登入後，聊天數據不會被保存且不會用於模型訓練",
+        "行政應用：在 Outlook 中總結長郵件、在 Word 中自動草擬文章、在 Teams 中做會議筆記"
+      ],
+      "layout": {
+        "composition": "列表式布局，使用微軟與 Windows 的相關圖示元素"
+      }
+    },
+    {
+      "number": 9,
+      "title": "Claude：長文本處理與嚴謹寫作大師",
+      "role": "concept explanation",
+      "intent": "介紹 Claude 的特點",
+      "key_points": [
+        "長文本能力強：可一次上傳並分析數萬字內容，適合處理複雜法規與長篇計畫",
+        "寫作風格沉穩：邏輯清晰，文字通順，極適合用來寫正式講稿、研究報告與編輯校對",
+        "高安全性：安全對話設計，比起其他模型更不易產生幻覺"
+      ],
+      "layout": {
+        "composition": "左右分欄，左側大字凸顯「長文本與邏輯」，右側為適用任務列表"
+      }
+    },
+    {
+      "number": 10,
+      "title": "Google Gemini：結合 Google 生態的多模態模型",
+      "role": "concept explanation",
+      "intent": "介紹 Gemini 特色",
+      "key_points": [
+        "與 Google 生態系緊密結合：可直接存取 Drive 檔案、網頁 Chrome 與 Docs",
+        "多模態輸入：能同時理解與分析文字、語音、圖片甚至是影片",
+        "即時檢索：特定版本支援聯網搜尋，能快速查核最新資料與生成備課插圖"
+      ],
+      "layout": {
+        "composition": "網狀關係圖版面，Gemini 為中心，周圍環繞 Google 服務卡片"
+      }
+    },
+    {
+      "number": 11,
+      "title": "第二單元：公文處理與智慧知識庫建置",
+      "role": "section divider",
+      "intent": "過渡到第二單元",
+      "key_points": [
+        "解決學校公文起草的格式與法律措辭痛點",
+        "利用 NotebookLM 打造專屬的法規檢索知識庫"
+      ],
+      "layout": {
+        "composition": "大標題置中，深藍背景，湖水綠大裝飾字元"
+      }
+    },
+    {
+      "number": 12,
+      "title": "學校公文處理的行政痛點",
+      "role": "concept explanation",
+      "intent": "分析公文處理的難點",
+      "key_points": [
+        "格式規範嚴格：通常需要背景說明、調查結果與處理改善三段式結構",
+        "遣詞造句必須依法合規，避免防禦性說教或不當語氣",
+        "需彙整大量多元資料：陳情信、政策檔案、法規條文與歷史會議紀錄"
+      ],
+      "layout": {
+        "composition": "三個灰色警告色調卡片並列，紅色與湖水綠高亮重點"
+      }
+    },
+    {
+      "number": 13,
+      "title": "臺灣公文寫作助手：自建 GPT 實務",
+      "role": "process",
+      "intent": "介紹公文助手運作流程",
+      "key_points": [
+        "在 ChatGPT 內建置「臺灣公文寫作助手」自訂 GPT",
+        "輸入陳情案件或申訴文字，AI 自動解析爭點與法律風險",
+        "自動產出符合「背景說明 -> 調查結果 -> 處理及改善情形」的回應草稿"
+      ],
+      "layout": {
+        "composition": "三步驟流程卡片，呈現「輸入 -> AI 格式化 -> 輸出公文草稿」"
+      }
+    },
+    {
+      "number": 14,
+      "title": "客製化專屬 AI：GPTs 與 Gems",
+      "role": "concept explanation",
+      "intent": "說明 GPTs 與 Gems 的製作與應用",
+      "key_points": [
+        "無需任何程式碼：用自然語言對話即可設定 AI 的角色定位與回答規則",
+        "支援上傳知識庫檔案（Knowledge）：可上傳校務法規、格式範本",
+        "行政應用：快速建立校內常見問答 Bot、表單檢索 Bot、活動企劃助手"
+      ],
+      "layout": {
+        "composition": "左側為 GPTs 架構示意圖，右側為行政應用實例的卡片"
+      }
+    },
+    {
+      "number": 15,
+      "title": "Google NotebookLM：個人智慧資料庫",
+      "role": "concept explanation",
+      "intent": "介紹 NotebookLM 優勢",
+      "key_points": [
+        "Google 推出的文件智慧助理，可上傳 PDF、TXT、Google Docs 或網頁連結",
+        "封閉式知識庫：僅在您上傳的檔案範圍內回答問題，有效避免 AI 幻覺",
+        "特色功能：回答問題時會標記原文的具體引文，並自動生成文檔摘要與指南"
+      ],
+      "layout": {
+        "composition": "一個核心筆記本圖示，箭頭指向封閉文檔庫與智慧問答卡片"
+      }
+    },
+    {
+      "number": 16,
+      "title": "實作案例：校規與法規查詢檢索系統",
+      "role": "case study",
+      "intent": "分享 NotebookLM 應用案例",
+      "key_points": [
+        "將全校校規、請假規則、輔導管教辦法等 PDF 上傳至 NotebookLM",
+        "使用者以自然語言提問（例如：「學生請假超過幾天會被扣考？」）",
+        "AI 自動彙整回答，並精準標記出處（例如：請假規則第五條），便於核對"
+      ],
+      "layout": {
+        "composition": "左側展示上傳的 PDF 列表，右側為對話提問與引文標記的畫面對比"
+      }
+    },
+    {
+      "number": 17,
+      "title": "第三單元：智慧會議記錄與高效語音轉文字",
+      "role": "section divider",
+      "intent": "過渡到第三單元",
+      "key_points": [
+        "從語音輸入到音檔轉錄：解放會議記錄的雙手",
+        "使用 AI 進行會議資料的視覺化、大綱整理與簡報轉換"
+      ],
+      "layout": {
+        "composition": "白底，深藍與湖水綠大字標題，簡約俐落"
+      }
+    },
+    {
+      "number": 18,
+      "title": "會議記錄的行政負擔與痛點",
+      "role": "concept explanation",
+      "intent": "分析會議記錄的痛點",
+      "key_points": [
+        "會議時間冗長，邊聽邊打字極易遺漏重要決議",
+        "手動重聽錄音檔整理逐字稿，費時費力（通常耗時開會時間的數倍）",
+        "缺乏有效的工具快速提取決議事項與後續行動清單"
+      ],
+      "layout": {
+        "composition": "左側為表示混亂錄音檔與沙漏的圖示，右側為痛苦的整理過程卡片"
+      }
+    },
+    {
+      "number": 19,
+      "title": "語音轉文字工具地圖",
+      "role": "comparison",
+      "intent": "對比不同的語音轉文字方式",
+      "key_points": [
+        "Windows + H 聽寫：系統內建即時語音輸入，適合個人隨手記錄",
+        "網頁版 Word 聽寫：內建即時語音輸入，支援多國語言聽寫",
+        "Office 365 語音擷取：上傳已有音檔自動轉錄，支援說話者識別",
+        "Apple 備忘錄：Mac 與 iOS 系統內建，適合行動開會隨手速記"
+      ],
+      "layout": {
+        "composition": "四欄卡片布局，每欄標示工具適用場景與限制"
+      }
+    },
+    {
+      "number": 20,
+      "title": "Microsoft 365 教育版帳號申請與啟用",
+      "role": "process",
+      "intent": "引導如何申請免費 O365 帳號",
+      "key_points": [
+        "申請資格：學校教職員工及學生皆可使用學校信箱免費申請",
+        "註冊步驟：進入 Office 365 教育版官網，輸入學校 edu.tw 信箱",
+        "功能權限：啟用後可免費使用雲端 Word、PowerPoint 及其內建聽寫工具"
+      ],
+      "layout": {
+        "composition": "直向三步驟流程卡片，圖示引導點擊操作"
+      }
+    },
+    {
+      "number": 21,
+      "title": "Windows + H 系統內建語音聽寫",
+      "role": "process",
+      "intent": "介紹 Win+H 快速鍵用法",
+      "key_points": [
+        "快速啟動：在 Windows 系統中按下 Win 鍵 + H 鍵",
+        "即時輸入：在任何有文字游標的地方（Word、記事本等）說話即可輸入",
+        "優勢：不需安裝軟體，中英文混雜識別率高，且支援自動標點符號"
+      ],
+      "layout": {
+        "composition": "高亮鍵盤圖示（Win 與 H 鍵），指向文字框即時聽寫波形"
+      }
+    },
+    {
+      "number": 22,
+      "title": "網頁版 Word 語音輸入功能",
+      "role": "process",
+      "intent": "介紹 Word 網頁版聽寫",
+      "key_points": [
+        "操作路徑：登入網頁版 Word，在首頁工具列點擊「聽寫 (Dictate)」按鈕",
+        "即時轉錄：開啟麥克風，口述報告，AI 即時在文件中打字",
+        "行政優勢：適合主管或口述者快速整理文稿，語速可達每分鐘150字以上"
+      ],
+      "layout": {
+        "composition": "模擬 Word 網頁版介面卡片，突顯聽寫按鈕與即時打字效果"
+      }
+    },
+    {
+      "number": 23,
+      "title": "Office 365 語音擷取與音檔轉錄",
+      "role": "process",
+      "intent": "介紹 O365 上傳音檔轉錄功能",
+      "key_points": [
+        "操作方式：在 Word 聽寫下拉選單中選擇「轉錄 (Transcribe)」",
+        "檔案支援：可直接現場錄製，或上傳 MP3、WAV、M4A 等格式音檔",
+        "核心亮點：AI 自動分析語音，區分說話者並標註時間戳記，生成逐字稿"
+      ],
+      "layout": {
+        "composition": "左右對比，左側為音檔上傳與處理，右側為生成的喇叭1/喇叭2對話稿"
+      }
+    },
+    {
+      "number": 24,
+      "title": "NotebookLM 語音檔二次加工",
+      "role": "process",
+      "intent": "介紹利用 NotebookLM 加工逐字稿",
+      "key_points": [
+        "數據導入：將 Office 365 轉錄好的逐字稿文字上傳至 NotebookLM",
+        "行政指令：要求 AI 根據逐字稿快速產出「會議摘要」與「決議事項」",
+        "翻譯與整理：可一鍵將中文摘要翻譯成多國語言，並整理成待辦清單"
+      ],
+      "layout": {
+        "composition": "橫向流程圖，逐字稿 TXT -> 箭頭 -> NotebookLM 處理 -> 箭頭 -> 摘要與代辦"
+      }
+    },
+    {
+      "number": 25,
+      "title": "會議資料視覺化：從大綱到結構圖",
+      "role": "process",
+      "intent": "介紹如何將會議文字轉為圖表",
+      "key_points": [
+        "資訊簡化：長篇大綱複製後貼入 AI 助理，要求生成 Markdown 大綱格式",
+        "結構化輸出：利用 AI 繪圖或 Markdown 心智圖工具，一鍵轉為心智圖",
+        "實用價值：讓團隊成員對複雜決議事項一目了然，便於宏觀管理"
+      ],
+      "layout": {
+        "composition": "左側為條列文字大綱卡片，右側為對應的心智圖分支示意圖"
+      }
+    },
+    {
+      "number": 26,
+      "title": "會議重點圖示化：AI 配圖美化",
+      "role": "process",
+      "intent": "說明如何用 AI 幫簡報配圖",
+      "key_points": [
+        "行政簡報文字偏多，可利用 AI 生成簡明插圖作為視覺亮點",
+        "使用 Copilot Designer 輸入關鍵字，例如「代表團隊合作的扁平插圖」",
+        "將生成的圖示或圖片放入報告中，增強視覺張力與專業感"
+      ],
+      "layout": {
+        "composition": "一個輸入提示詞框，指向生成的精美科技感扁平插圖"
+      }
+    },
+    {
+      "number": 27,
+      "title": "從會議大綱到簡報生成",
+      "role": "process",
+      "intent": "介紹會議大綱導入 AI 簡報工具",
+      "key_points": [
+        "提取精簡後的會議重點大綱，將其複製",
+        "貼入 AI 簡報工具 Gamma，選擇「文字生成簡報」功能",
+        "AI 將自動在幾秒內排版、配圖，快速建立行政報告的簡報草稿"
+      ],
+      "layout": {
+        "composition": "流程化布局，展示文字貼入 Gamma 框，瞬間轉化為多頁投影片"
+      }
+    },
+    {
+      "number": 28,
+      "title": "第四單元：數位資料庫與智能筆記系統",
+      "role": "section divider",
+      "intent": "過渡到第四單元",
+      "key_points": [
+        "結構化管理學校行政與教學資源的數位資料庫",
+        "Notion 與 Notion AI 在教學筆記與錯題本的實務結合"
+      ],
+      "layout": {
+        "composition": "深藍色調，居中大字，右側附一個簡潔的資料庫圖示"
+      }
+    },
+    {
+      "number": 29,
+      "title": "Notion 數位資料庫：結構化整理資源",
+      "role": "concept explanation",
+      "intent": "介紹 Notion 的行政與教學應用",
+      "key_points": [
+        "無縫協作：團隊成員可線上即時共同編輯，集中管理行政進度與教案",
+        "多維檢視：同一套資料庫可任意切換成表格、看板、行事曆或畫廊檢視",
+        "資訊聯動：將會議記錄、待辦事項與檔案庫相互關聯，打造一站式平台"
+      ],
+      "layout": {
+        "composition": "展示 Notion 的看板 (Kanban) 線框圖，呈現不同階段的卡片"
+      }
+    },
+    {
+      "number": 30,
+      "title": "Notion AI 實務應用：生物科錯題診斷",
+      "role": "case study",
+      "intent": "分享錯題筆記的 Notion AI 應用",
+      "key_points": [
+        "錯題本建置：學生將生物科選擇題拍照或打字貼入 Notion 筆記中",
+        "AI 即時診斷：在題目旁叫出 Notion AI，要求進行「錯誤概念分析」",
+        "解析與補充：AI 自動解析每個選項的對錯，並提供延伸的生物學知識點",
+        "效果：形成完整的個人學習知識網絡，教師也能快速掌握學生常犯錯誤"
+      ],
+      "layout": {
+        "composition": "左側為選擇題筆記內容，右側為 Notion AI 的詳細解析卡片對照"
+      }
+    },
+    {
+      "number": 31,
+      "title": "第五單元：AI 智慧搜尋與大數據分析整理",
+      "role": "section divider",
+      "intent": "過渡到第五單元",
+      "key_points": [
+        "顛覆傳統搜尋：用對話獲得精確網頁與法規資訊",
+        "利用大型語言模型進行行政數據的快速清洗與分析"
+      ],
+      "layout": {
+        "composition": "極簡白底，淡藍與湖水綠卡片線條"
+      }
+    },
+    {
+      "number": 32,
+      "title": "AI 搜尋引擎：Perplexity & Felo Search",
+      "role": "comparison",
+      "intent": "比較 AI 搜尋與傳統搜尋",
+      "key_points": [
+        "傳統搜尋：輸入關鍵字，點擊大量網頁，需手動閱讀並自行整理",
+        "Perplexity：直接回答自然語言問題，自動搜尋網頁並彙整，附帶來源角標",
+        "Felo Search：強大的跨語言搜尋，能用中文搜尋並翻譯全球的最新研究"
+      ],
+      "layout": {
+        "composition": "左右對比，左側為繁雜的 Google 搜尋結果，右側為 Perplexity 乾淨的彙整段落"
+      }
+    },
+    {
+      "number": 33,
+      "title": "資料查詢檢索技巧：尋找法規與政策",
+      "role": "process",
+      "intent": "介紹搜尋法規技巧",
+      "key_points": [
+        "精確提問：例如「台北市高中學生評量辦法最新修改條文中有關扣考的規定」",
+        "AI 彙整：AI 自動在教育部、教育局網站尋找最新資料並產出摘要",
+        "出處確認：利用 AI 提供的來源連結，直接點擊跳轉至官網核對以確保正確"
+      ],
+      "layout": {
+        "composition": "三欄卡片流程，突顯「精準提問 -> AI 檢索彙整 -> 連結確認」"
+      }
+    },
+    {
+      "number": 34,
+      "title": "行政數據分析：利用 LLM 快速整理",
+      "role": "process",
+      "intent": "說明 LLM 處理行政數據的用途",
+      "key_points": [
+        "數據清洗：將格式混亂的文字或學生成績貼入 AI，要求格式化為乾淨的表格",
+        "數據分析：要求 AI 計算平均數、標準差，並找出異常數據或統計趨勢",
+        "程式生成：AI 可直接給予 Python 繪圖代碼，快速畫出成績分佈趨勢圖"
+      ],
+      "layout": {
+        "composition": "左側為混亂文本，右側為 AI 整理後的精美表格與統計圖表卡片"
+      }
+    },
+    {
+      "number": 35,
+      "title": "第六單元：多媒體生成與行政設計美化",
+      "role": "section divider",
+      "intent": "過渡到第六單元",
+      "key_points": [
+        "讓行政宣傳更吸睛：AI 圖片生成工具應用",
+        "Gamma 簡報工具與業務簡報的美化排版實務"
+      ],
+      "layout": {
+        "composition": "深藍背景，湖水綠文字，極簡現代感"
+      }
+    },
+    {
+      "number": 36,
+      "title": "AI 圖片生成工具簡介",
+      "role": "concept explanation",
+      "intent": "介紹常見生圖工具",
+      "key_points": [
+        "Microsoft Copilot (DALL-E 3)：免費生圖，對中文提示詞理解力強",
+        "Gemini (Imagen)：生成現代扁平插畫或寫實風格圖片速度極快",
+        "ChatGPT (DALL-E 3)：可透過對話持續調整圖片細節，適合細緻創作",
+        "行政應用：製作活動宣傳海報、講義配圖、簡報插圖"
+      ],
+      "layout": {
+        "composition": "三個圓形區域展示不同風格（扁平、3D、手繪）的生圖效果"
+      }
+    },
+    {
+      "number": 37,
+      "title": "實作案例：吉卜力動畫風格校景生成",
+      "role": "case study",
+      "intent": "介紹校景照片吉卜力風格轉換",
+      "key_points": [
+        "做法：將寫實的學校照片作為參考圖上傳至圖片生成 AI",
+        "提示詞：設定「吉卜力風格的校園建築、溫暖手繪質感、藍天白雲、柔和光影」",
+        "行政應用：可用於學校簡介、校園導覽、活動海報，增添藝術感與親和力"
+      ],
+      "layout": {
+        "composition": "左右對比卡片，左為寫實校景照，右為溫暖飽和的吉卜力風格校景圖"
+      }
+    },
+    {
+      "number": 38,
+      "title": "簡報生成神器 Gamma 的高效應用",
+      "role": "process",
+      "intent": "介紹 Gamma 的優點與匯出",
+      "key_points": [
+        "一鍵排版：輸入大綱後，AI 自動排版、配色，並配上相關簡潔圖示",
+        "彈性編輯：支援線上拖拉式文字區塊與圖片更換，修改非常直覺",
+        "檔案匯出：支援線上網頁連結分享，也可一鍵匯出為標準 PPTX 或 PDF"
+      ],
+      "layout": {
+        "composition": "展示 Gamma 工作畫面的簡化線框卡片，箭頭指向導出的 PPT 檔案"
+      }
+    },
+    {
+      "number": 39,
+      "title": "行政業務簡報美化技巧",
+      "role": "process",
+      "intent": "分享簡報美化的實用原則",
+      "key_points": [
+        "文字精煉：避免大段文字，一頁投影片只保留 3-5 個關鍵重點要點",
+        "視覺引導：標題使用大字體，關鍵字使用強調色（如湖水綠）標示",
+        "配圖一致：避免低品質剪貼畫，改用風格統一的扁平插圖或無背景圖"
+      ],
+      "layout": {
+        "composition": "Before & After 對照，一邊為冗長無對齊文字，一邊為資訊分塊且留白舒適的頁面"
+      }
+    },
+    {
+      "number": 40,
+      "title": "第七單元：跨國交流與網頁即時翻譯",
+      "role": "section divider",
+      "intent": "過渡到第七單元",
+      "key_points": [
+        "打破語言屏障的雙語對照網頁翻譯插件",
+        "實作案例：自製 AI 輔助設計雙語即時翻譯網頁程式"
+      ],
+      "layout": {
+        "composition": "白底，藍綠色裝飾線條，清爽簡潔"
+      }
+    },
+    {
+      "number": 41,
+      "title": "實用網頁與文檔翻譯工具",
+      "role": "concept explanation",
+      "intent": "介紹沉浸式翻譯插件",
+      "key_points": [
+        "沉浸式翻譯：在英文網頁原文下方直接插入中文翻譯，不破壞原網頁排版",
+        "多格式支援：除網頁外，還支援 PDF、EPUB 電子書與 YouTube 雙語字幕",
+        "行政應用：快速閱讀國外最新教育資訊、法規文獻與科技報告"
+      ],
+      "layout": {
+        "composition": "模擬雙語對照網頁畫面，英文段落下方配藍色中文對照字"
+      }
+    },
+    {
+      "number": 42,
+      "title": "實作案例：AI 輔助設計雙語翻譯網頁程式",
+      "role": "case study",
+      "intent": "分享林老師的翻譯程式案例",
+      "key_points": [
+        "由林獻升老師引導 AI 輔助設計的即時雙語翻譯工具",
+        "線上版連結：https://froglssh.github.io/multi-functional-translator-online/",
+        "離線版特點：免安裝網頁檔案，雙擊即可在瀏覽器中運行，隱私且快速",
+        "行政應用：適合校內同仁處理跨國來信、外語簡報與公務文書翻譯"
+      ],
+      "layout": {
+        "composition": "展示翻譯程式的介面線框圖，高亮顯示輸入/輸出框與線上/離線網址"
+      }
+    },
+    {
+      "number": 43,
+      "title": "第八單元：AI Agent 前瞻與結語",
+      "role": "section divider",
+      "intent": "過渡到第八單元",
+      "key_points": [
+        "從對話框走向主動執行任務的 AI Agent",
+        "結語：麗山高中藏尾詩，展現生態與人文情懷"
+      ],
+      "layout": {
+        "composition": "深藍背景，科技感與教育情懷的交織"
+      }
+    },
+    {
+      "number": 44,
+      "title": "AI Agent：邁向自動化工作流的未來",
+      "role": "concept explanation",
+      "intent": "介紹 AI Agent 概念與行政願景",
+      "key_points": [
+        "概念：AI Agent 具備「規劃、記憶、工具調用」能力，可自主執行多步驟任務",
+        "行政場景：指定「幫我排下週會議」，AI 自動查閱主管行事曆、發送邀請並預約會議室",
+        "展望：行政人員從手動操作多個 AI 升級為擁有自主協作的「AI 特助」"
+      ],
+      "layout": {
+        "composition": "一個智慧 Agent 核心卡片，外圍指向規劃、記憶與工具的四個分支圖"
+      }
+    },
+    {
+      "number": 45,
+      "title": "結語：麗山生態之美與教育生命關懷 (藏尾詩)",
+      "role": "summary",
+      "intent": "用生態藏尾詩做溫馨結語",
+      "key_points": [
+        "樹蛙升歌夜色麗 (尾字：麗) —— 描寫麗山夜行樹蛙的自然歌唱",
+        "蜓蜥華行映青山 (尾字：山) —— 描寫爬行蜥蜴在青山間的和諧之美",
+        "蛺蝶偉姿飛影高 (尾字：高) —— 描寫飛舞的蝴蝶，象徵追求自由理想",
+        "紅葉楓情秋意中 (尾字：中) —— 描寫飄落的紅葉，將秋日詩意深印心中",
+        "藏尾：「麗山高中」。展現生物科視野下的校園自然與教育生命力。"
+      ],
+      "layout": {
+        "composition": "右下角為生成的吉卜力風格麗山校景圖，左上以典雅字體直排呈現藏尾詩，高亮顯示每句最末字「麗山高中」"
+      }
+    }
+  ]
+}

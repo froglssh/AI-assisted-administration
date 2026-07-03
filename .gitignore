@@ -1,0 +1,5 @@
+# Ignore drafts and temporary image creations
+drafts/
+
+# OS X noise
+.DS_Store
