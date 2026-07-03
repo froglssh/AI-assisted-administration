@@ -61,7 +61,13 @@
       "title": "關於講者 (Presenter)",
       "job": "prompts/slide_02.json",
       "out": "origin_image/slide_02.png",
-      "input_images": [],
+      "input_images": [
+        {
+          "path": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/input_images/presenter_avatar.jpg",
+          "role": "speaker avatar",
+          "fidelity": "high"
+        }
+      ],
       "style_reference_images": [
         {
           "path": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/origin_image/slide_06.png",
@@ -70,30 +76,30 @@
         }
       ],
       "requires_context_images": false,
-      "expected_generation_mode": "generate",
+      "expected_generation_mode": "edit",
       "status": "recorded",
       "dispatch": {
         "agent_id": "cbf7ed9f-dd6f-478d-a4ad-bdf5f64c164a",
         "agent_nickname": null,
         "prompt": "prompts/slide_02.json",
-        "prompt_sha256": "9065e0ffaecab51a9f57a3f8fcf0cac77fec970408f065771768ede1550a625e",
-        "dispatched_at": "2026-07-03T08:18:48Z"
+        "prompt_sha256": "d3f9c3aa2fd18e671d6ac0d723e9f2f092463ecf3c2046eea9ce76539a92ebf3",
+        "dispatched_at": "2026-07-03T08:39:34Z"
       },
       "result": {
         "agent_id": "cbf7ed9f-dd6f-478d-a4ad-bdf5f64c164a",
         "backend_used": "scripts/image_gen.py --backend auto (codex-oauth)",
         "selected_source": "/Users/froglssh/Library/CloudStorage/GoogleDrive-frog@lssh.tp.edu.tw/我的雲端硬碟/0AI應用/0-AI輔助行政/AI輔助行政事務/drafts/slide_02_candidate.png",
-        "selected_source_sha256": "15f82b30d50f5b917eedb81d3c3410df248c341da5ced4823be296f3e9b3e54a",
+        "selected_source_sha256": "5a30ba2a8bf713c5aec2667b2258507d760a80c606d19c5911c4e5905ce9b693",
         "final_image": "origin_image/slide_02.png",
-        "final_image_sha256": "15f82b30d50f5b917eedb81d3c3410df248c341da5ced4823be296f3e9b3e54a",
+        "final_image_sha256": "5a30ba2a8bf713c5aec2667b2258507d760a80c606d19c5911c4e5905ce9b693",
         "expected_backend": "scripts/image_gen.py --backend auto (codex-oauth)",
         "expected_backend_labels": [
           "scripts/image_gen.py --backend auto (codex-oauth)",
           "scripts/image_gen.py"
         ],
         "sample_generation_method_matched": true,
-        "qa_note": "Slide 2 speaker profile generated successfully.",
-        "recorded_at": "2026-07-03T08:20:01Z"
+        "qa_note": "Slide 2 speaker profile successfully updated with Lin Xian-sheng cartoon avatar.",
+        "recorded_at": "2026-07-03T08:39:34Z"
       },
       "blocker": null
     },
@@ -1886,5 +1892,5 @@
       "blocker": null
     }
   ],
-  "updated_at": "2026-07-03T08:29:46Z"
+  "updated_at": "2026-07-03T08:39:34Z"
 }
